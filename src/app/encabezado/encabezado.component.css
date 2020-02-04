@@ -1,0 +1,22 @@
+.fondo{
+    background: url(https://st2.depositphotos.com/4817991/8158/i/950/depositphotos_81587136-stock-photo-laptop-mobile-phone-and-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.filtro{
+    background: rgba(53, 54, 56, 0.4);
+    top: 0;
+    left: 0;
+    border-right: 100px solid white;
+    border-bottom: 14em solid transparent; 
+     
+    height: 0;
+    line-height: 50px;
+}
+
+small a {
+    color: blanchedalmond;
+}
+
