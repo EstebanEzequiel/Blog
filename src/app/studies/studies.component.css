@@ -1,5 +1,40 @@
 .card{
     margin-top: 4rem;
-    margin-bottom: 4rem;
-    padding: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    border-radius: 0px;
+    border: none;
+}
+.container-fluid{
+    background-color:#2C3E50;
+}
+
+.etiqueta{
+    color: #fff;
+    background: #33C4FF;
+    padding: 0.5rem 3rem;
+    margin-bottom: 2rem;
+    font-size: 25px;
+    margin-left: -65px;
+    position: relative;
+    width: 45%;
+    box-shadow: 0px 7px 12px #2C3E50;
+    -moz-box-shadow: 0px 7px 12px #2C3E50;
+    -webkit-box-shadow: 0px 7px 12px #2C3E50;
+}
+
+.forma{
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-color: black;
+    border-left: 26px solid transparent;
+    border-top: 17px solid rgb(0, 93, 146);
+    position: absolute;
+    top: 100%;
+    left: 0px;
 }
