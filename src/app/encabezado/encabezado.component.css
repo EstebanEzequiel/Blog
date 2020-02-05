@@ -10,13 +10,14 @@
     top: 0;
     left: 0;
     border-right: 100px solid white;
-    border-bottom: 14em solid transparent; 
+    border-bottom: 19em solid transparent; 
      
     height: 0;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 small a {
     color: blanchedalmond;
 }
+
 
