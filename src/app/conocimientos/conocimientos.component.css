@@ -1,35 +1,41 @@
-.cards{
-    background-color: white;
-    color: #013333;
-    margin-top: 0;
-    margin-bottom: 3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 3rem;
+.card{
+    background-color:#2C3E50;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 0.1rem;
     margin-right: 7rem;
     margin-left: 7rem;
     border-radius: 0px;
 }
 
 h2{
-    font-family: fantasy;
+    margin: 1rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .container-fluid{
-    background-color:#2C3E50;
+    background-color:rgb(25, 35, 46);
+    height: auto;
 }
 
 .etiqueta{
-    color: #fff;
+    color: rgb(0, 0, 0);
     background: #33C4FF;
-    padding: 0.5rem 2.5rem;
-    margin-top: 0.6em;
+    padding: 0.5rem 4rem;
+    margin-top: 1em;
     font-size: 25px;
-    margin-left: -26px;
+    margin-left: -44px;
     position: relative;
-    width: 44%;
-    box-shadow: 0px 7px 12px #2C3E50;
-    -moz-box-shadow: 0px 7px 12px #2C3E50;
-    -webkit-box-shadow: 0px 7px 12px #2C3E50;
+    width: 43%;
+    box-shadow: 0px 7px 12px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
 }
 
 .forma{
@@ -38,14 +44,13 @@ h2{
     line-height: 0px;
     border-color: black;
     border-left: 26px solid transparent;
-    border-top: 17px solid rgb(0, 93, 146);
+    border-top: 17px solid rgb(0, 65, 102);
     position: absolute;
     top: 100%;
     left: 0px;
 }
 
 img{
-    margin-right: 0.8rem;
-    margin-top: 0.8rem;
+   margin:0.3rem 1rem 0.3rem 0rem ;
 }
 
