@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 .fondo{
     background: url(../../assets/escritorio.jpg);
     background-size: cover;
@@ -21,7 +25,7 @@ small a{
 i{  margin-top: 1rem;}
 
 img {
-    height: 75%;
+    height: 70%;
     width: auto;
     margin: auto;
 }
@@ -43,9 +47,18 @@ img {
     small a {  font-size: 10px;  }
 
     i{  font-size: 10px;   }
+
+    img {
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+    .filtro{
+        height: 16rem;
+    }
 }
     
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
 
     p{  font-size:12px;  }
  
@@ -54,9 +67,24 @@ img {
     small a {  font-size: 10px; }
 
     i{ font-size: 0.2rem; }
+
+    .filtro{
+        height: 14rem;
+    }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 700px ) and (max-width: 1000px){
 
     h1{ font-size: 35px; }
+    img {
+        height: auto;
+    }
+    #foto{
+        margin-top: 10rem;
+    }
+
+    .filtro{
+        height: 18rem;
+    }
 }
+
