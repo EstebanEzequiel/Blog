@@ -1,42 +1,46 @@
 .card{
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     padding: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 3rem;
-    margin-right: 7rem;
-    margin-left: 7rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     border-radius: 0px;
-    box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
+    border: none;
+    box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
+    -moz-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
+    -webkit-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
 }
 
-.container-fluid{
-    background-color:rgb(25, 35, 46);
+.container-fluid
+{
+    background-color:whitesmoke;
 }
 
 .etiqueta{
+    color: rgba(52, 4, 116, 0.404);
+    font-weight: bold;
+    text-transform: capitalize;
     display: inline-block;
-    background: #33C4FF;
+    background: orange;
     padding: 0.5rem 4.5rem;
     margin-bottom: 2rem;
     font-size: 25px;
     margin-left: -64px;
     position: relative;
     width: auto;
-    box-shadow: 0px 7px 12px #2C3E50;
-    -moz-box-shadow: 0px 7px 12px #2C3E50;
-    -webkit-box-shadow: 0px 7px 12px #2C3E50;
+    box-shadow: 5px 0 10px -2px rgb(58, 58, 58);
+    -moz-box-shadow: 5px 0 10px -2px rgb(58, 58, 58);
+    -webkit-box-shadow: 5px 0 10px -2px rgb(58, 58, 58);
 }
 
 .forma{
     width: 0px;
     height: 0px;
     line-height: 0px;
-    border-color: black;
     border-left: 26px solid transparent;
-    border-top: 17px solid rgb(1, 86, 136);
+    border-top: 17px solid rgba(122, 69, 1, 0.472);
     position: absolute;
     top: 100%;
     left: 0px;
@@ -119,3 +123,4 @@ h1{
         font-size: 12px;
     }
 }
+
