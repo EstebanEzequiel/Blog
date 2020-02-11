@@ -30,9 +30,9 @@
     margin-left: -64px;
     position: relative;
     width: auto;
-    box-shadow: 5px 0 10px -2px rgb(58, 58, 58);
-    -moz-box-shadow: 5px 0 10px -2px rgb(58, 58, 58);
-    -webkit-box-shadow: 5px 0 10px -2px rgb(58, 58, 58);
+    box-shadow: 5.1px 0 8.9px -1.8px rgb(58, 58, 58);
+    -moz-box-shadow: 5.1px 0 8.9px -1.8px rgb(58, 58, 58);
+    -webkit-box-shadow: 5.1px 0 8.9px -1.8px rgb(58, 58, 58);
 }
 
 .forma{
@@ -49,6 +49,10 @@
 h1{
     font-family: 'Roboto', sans-serif;
     color: #000;
+}
+
+em{
+    color: dodgerblue !important;
 }
 
 @media screen and (min-width: 700px) and (max-width: 948px){
@@ -123,4 +127,3 @@ h1{
         font-size: 12px;
     }
 }
-

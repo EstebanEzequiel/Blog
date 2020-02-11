@@ -13,7 +13,7 @@
     background: rgba(47, 47, 47, 0.65);
     top: 0;
     left: 0;
-    height: 24rem;
+    height: 23rem;
 }
 
 small a{
@@ -34,8 +34,15 @@ img {
     margin-top: 11rem;
 }
 
+p{
+    font-size: x-large;
+}
+
 #nombre{
     margin:auto;
+    position: absolute;
+    top: 200px;
+    right: -1rem;
 }
 
 @media screen and (max-width: 700px){
@@ -87,4 +94,6 @@ img {
         height: 18rem;
     }
 }
+
+
 
