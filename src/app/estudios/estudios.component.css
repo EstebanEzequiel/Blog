@@ -1,11 +1,11 @@
 .card{
     margin-top: 3rem;
     margin-bottom: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     padding: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 3rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
     border-radius: 0px;
     border: none;
     box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
@@ -13,13 +13,10 @@
     -webkit-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
 }
 
-.container-fluid
-{
-    background-color:whitesmoke;
-}
+.container-fluid { background-color:whitesmoke; }
 
 .etiqueta{
-    color: rgba(52, 4, 116, 0.404);
+    color: rgba(42, 3, 94, 0.486);
     font-weight: bold;
     text-transform: capitalize;
     display: inline-block;
@@ -30,9 +27,9 @@
     margin-left: -64px;
     position: relative;
     width: auto;
-    box-shadow: 5.1px 0 8.9px -1.8px rgb(58, 58, 58);
-    -moz-box-shadow: 5.1px 0 8.9px -1.8px rgb(58, 58, 58);
-    -webkit-box-shadow: 5.1px 0 8.9px -1.8px rgb(58, 58, 58);
+    box-shadow: 1.1px 0 8.9px -3.1px rgb(41, 41, 41);
+    -moz-box-shadow: 1.1px 0 8.9px -3.1px rgb(41, 41, 41);
+    -webkit-box-shadow: 1.1px 0 8.9px -3.1px rgb(41, 41, 41);
 }
 
 .forma{
@@ -40,7 +37,7 @@
     height: 0px;
     line-height: 0px;
     border-left: 26px solid transparent;
-    border-top: 17px solid rgba(122, 69, 1, 0.472);
+    border-top: 17px solid rgba(122, 69, 1, 0.877);
     position: absolute;
     top: 100%;
     left: 0px;
