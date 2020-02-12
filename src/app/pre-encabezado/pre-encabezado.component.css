@@ -1,0 +1,18 @@
+.fondo{
+    background: url(../../assets/cordoba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.filtro{
+    background: rgb(64, 179, 224,0.7);
+    top: 0;
+    left: 0;
+    height: 8rem;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+}
+

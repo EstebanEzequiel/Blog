@@ -13,87 +13,62 @@
     background: rgba(47, 47, 47, 0.65);
     top: 0;
     left: 0;
-    height: 23rem;
+    height: 21rem;
+    position: relative;
 }
-
-small a{
-    color: white;
-    font-size: 0.8rem;
-    text-decoration: none;
-}
-
-i{  margin-top: 1rem;}
 
 img {
-    height: 70%;
-    width: auto;
+    height: 12rem;
+    border: 1px solid white;
+    position: absolute;
     margin: auto;
-}
-
-#foto{
-    margin-top: 11rem;
-}
-
-p{
-    font-size: x-large;
+    top: 6rem;
+    right: 1rem;
 }
 
 #nombre{
-    margin:auto;
-    position: absolute;
-    top: 200px;
-    right: -1rem;
+    top: 8rem;
 }
 
-@media screen and (max-width: 700px){
+h1 { font-weight: bold;}
 
-    p{  font-size:16px;  }
-
-    h1{ font-size: 20px; }
-
-    small a {  font-size: 10px;  }
-
-    i{  font-size: 10px;   }
-
-    img {
-        height: auto;
-        width: auto;
-        margin: auto;
-    }
-    .filtro{
-        height: 16rem;
-    }
-}
-    
-@media screen and (max-width: 400px){
-
-    p{  font-size:12px;  }
- 
-    h1{ font-size: 16px; }
-
-    small a {  font-size: 10px; }
-
-    i{ font-size: 0.2rem; }
-
-    .filtro{
-        height: 14rem;
-    }
-}
+h3 { color: turquoise;}
 
 @media screen and (min-width: 700px ) and (max-width: 1000px){
 
     h1{ font-size: 35px; }
-    img {
-        height: auto;
-    }
-    #foto{
-        margin-top: 10rem;
-    }
+    
+    h2 { font-size: 25px;  }
 
-    .filtro{
-        height: 18rem;
-    }
+    img { height: auto; }
+
+    #nombre { left: 2rem;}
+
 }
 
+@media screen and (min-width: 400px ) and (max-width: 700px){
 
+    h1{ font-size: 20px; }
+    
+    h2 { font-size: 18px;  }
 
+    h3 {  font-size:14px;  }
+
+    img { height: auto; }
+
+    #nombre { left: 1rem;}
+
+}
+
+@media screen and (max-width: 400px){
+
+    h3 {  font-size:12px;  }
+
+    h2 { font-size: 16px;  }
+ 
+    h1 { font-size: 18px; }
+
+    img { height: auto;  }
+
+    #nombre { top: 6rem; left: 1rem;}
+}
