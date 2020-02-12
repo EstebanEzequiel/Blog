@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PiePagComponent } from './pie-pag.component';
+import { PreEncabezadoComponent } from './pre-encabezado.component';
 
-describe('PiePagComponent', () => {
-  let component: PiePagComponent;
-  let fixture: ComponentFixture<PiePagComponent>;
+describe('PreEncabezadoComponent', () => {
+  let component: PreEncabezadoComponent;
+  let fixture: ComponentFixture<PreEncabezadoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PiePagComponent ]
+      declarations: [ PreEncabezadoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PiePagComponent);
+    fixture = TestBed.createComponent(PreEncabezadoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

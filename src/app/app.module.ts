@@ -7,9 +7,9 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ConocimientosComponent } from './conocimientos/conocimientos.component';
 import { IdiomasComponent } from './idiomas/idiomas.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
-import { PiePagComponent } from './pie-pag/pie-pag.component';
-import { StudiesComponent } from './studies/studies.component';
 import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
+import { PreEncabezadoComponent } from './pre-encabezado/pre-encabezado.component';
+import { EstudiosComponent } from './estudios/estudios.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +19,9 @@ import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
     ConocimientosComponent,
     IdiomasComponent,
     ProyectosComponent,
-    PiePagComponent,
-    StudiesComponent,
-    PiePaginaComponent
+    PiePaginaComponent,
+    PreEncabezadoComponent,
+    EstudiosComponent
   ],
   imports: [
     BrowserModule
