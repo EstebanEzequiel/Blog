@@ -40,23 +40,23 @@ h3 { color: turquoise;}
     
     h2 { font-size: 25px;  }
 
-    img { height: auto; }
+    img { height: auto; right: -1rem; }
 
-    #nombre { left: 2rem;}
+    #nombre { left: 2rem; }
 
 }
 
 @media screen and (min-width: 400px ) and (max-width: 700px){
 
-    h1{ font-size: 20px; }
+    h1{ font-size: 18px; }
     
-    h2 { font-size: 18px;  }
+    h2 { font-size: 16px;  }
 
     h3 {  font-size:14px;  }
 
-    img { height: auto; }
+    img { height: auto; right: -0.5rem; top: 7rem;}
 
-    #nombre { left: 1rem;}
+    #nombre { left: 0.5rem;}
 
 }
 
@@ -64,11 +64,11 @@ h3 { color: turquoise;}
 
     h3 {  font-size:12px;  }
 
-    h2 { font-size: 16px;  }
+    h2 { font-size: 14px;  }
  
-    h1 { font-size: 18px; }
+    h1 { font-size: 16px; }
 
-    img { height: auto;  }
+    img { height: auto;  right: -0.5rem;}
 
-    #nombre { top: 6rem; left: 1rem;}
+    #nombre { top: 7rem; left: 0.2rem;}
 }

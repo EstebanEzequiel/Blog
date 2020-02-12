@@ -1,70 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+
 .card{
-    background-color:#2C3E50;
+    width: auto;
     margin-top: 1rem;
-    margin-right: 7rem;
-    margin-left: 7rem;
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
     border-radius: 0px;
-    box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    
+    border: none;
+    box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
+    -moz-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
+    -webkit-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
 }
 
-h5{
-    margin: 1rem;
-    color: white;
+h6{
+    color: darkorange;
+    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
-h1{
-    font-family: 'Roboto', sans-serif;
+h1{  font-family: 'Roboto', sans-serif; }
 
-}
-
-.container-fluid{
-    background-color:rgb(25, 35, 46);
-}
+.container-fluid { background-color:rgba(64, 179, 224, 0.637); }
 
 .etiqueta{
+    color: rgba(29, 0, 66, 0.685);
+    font-weight: bold;
+    text-transform: capitalize;
     display: inline-block;
-    color: rgb(0, 0, 0);
-    background: #33C4FF;
-    padding: 0.5rem 3.5rem;
-    margin-top: 1em;
+    background: rgb(0, 195, 255);
+    padding: 0.5rem 4rem;
+    margin-bottom: 0.5rem;
     font-size: 25px;
     margin-left: -64px;
     position: relative;
     width: auto;
-    box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
+    box-shadow: 1px 1px 5px rgb(65, 65, 65);
+    -moz-box-shadow: 1px 1px 5px rgb(65, 65, 65);
+    -webkit-box-shadow: 1px 1px 5px rgb(65, 65, 65);
 }
 
 .forma{
     width: 0px;
     height: 0px;
     line-height: 0px;
-    border-color: black;
     border-left: 26px solid transparent;
-    border-top: 17px solid rgb(0, 65, 102);
+    border-top: 8px solid rgb(0, 90, 143);
     position: absolute;
     top: 100%;
     left: 0px;
 }
 
 img{
-    height: 2rem;
-    width: auto;
+    height: 3rem;
+}
+
+table{
+    margin-top: -1rem;
 }
 
 progress{
-    float: right;
-    width: 8rem;
-}
-
-ul li{
-    background-color: #2C3E50;
-    border: none;
+    height: 5px;
+    text-align: center;
+    max-width: 40%;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px){
@@ -118,21 +123,12 @@ ul li{
         padding-right: 40px;
     }
 
-    progress{
-        font-size: 7px;
-    }
+    progress{  font-size: 5px;   }
 
-    h5{
-        font-size: 12px;
-    }
+    h5{   font-size: 12px;  }
 }
 
 @media screen and (max-width: 500px){
-
-    * {
-        box-sizing: border-box;
-      }
-
     .card{
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -156,14 +152,9 @@ ul li{
         padding-right: 30px;
     }
 
-    p{
-        font-size: 12px;
-    }
-    progress{
-        font-size: 4px;
-    }
+    p{  font-size: 12px;  }
 
-    h5{
-        font-size: 10px;
-    }
+    progress{  font-size: 4px;  }
+
+    h5{ font-size: 10px; }
 }

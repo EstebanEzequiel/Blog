@@ -13,7 +13,7 @@
     -webkit-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
 }
 
-.container-fluid { background-color:whitesmoke; }
+.container-fluid { background-color:rgba(64, 179, 224, 0.637); }
 
 .etiqueta{
     color: rgba(42, 3, 94, 0.486);
@@ -27,9 +27,9 @@
     margin-left: -64px;
     position: relative;
     width: auto;
-    box-shadow: 1.1px 0 8.9px -3.1px rgb(41, 41, 41);
-    -moz-box-shadow: 1.1px 0 8.9px -3.1px rgb(41, 41, 41);
-    -webkit-box-shadow: 1.1px 0 8.9px -3.1px rgb(41, 41, 41);
+    box-shadow: 1.1px 0 8.9px -3.1px rgb(0, 0, 0);
+    -moz-box-shadow: 1.1px 0 8.9px -3.1px rgb(0, 0, 0);
+    -webkit-box-shadow: 1.1px 0 8.9px -3.1px rgb(0, 0, 0);
 }
 
 .forma{
@@ -37,19 +37,16 @@
     height: 0px;
     line-height: 0px;
     border-left: 26px solid transparent;
-    border-top: 17px solid rgba(122, 69, 1, 0.877);
+    border-top: 8px solid rgba(122, 69, 1, 0.877);
     position: absolute;
     top: 100%;
     left: 0px;
 }
 
-h1{
-    font-family: 'Roboto', sans-serif;
-    color: #000;
-}
+h1{ font-family: 'Roboto', sans-serif; }
 
-em{
-    color: dodgerblue !important;
+em{ color: dodgerblue !important;  
+    font-style: normal;
 }
 
 @media screen and (min-width: 700px) and (max-width: 948px){
@@ -120,7 +117,5 @@ em{
         padding-right: 30px;
     }
 
-    p{
-        font-size: 12px;
-    }
+    p{    font-size: 12px;    }
 }
