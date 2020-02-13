@@ -9,6 +9,7 @@ import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
 import { PreEncabezadoComponent } from './pre-encabezado/pre-encabezado.component';
 import { EstudiosComponent } from './estudios/estudios.component';
 import { PersonalComponent } from './personal/personal.component';
+import { CursosComponent } from './cursos/cursos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PersonalComponent } from './personal/personal.component';
     PiePaginaComponent,
     PreEncabezadoComponent,
     EstudiosComponent,
-    PersonalComponent
+    PersonalComponent,
+    CursosComponent
   ],
   imports: [
     BrowserModule
