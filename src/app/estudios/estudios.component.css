@@ -1,6 +1,6 @@
 .card{
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     margin-right: 5rem;
     margin-left: 5rem;
     padding: 1rem;
@@ -14,7 +14,7 @@
 }
 
 .container-fluid { 
-    background-color:#8f8689; 
+    background-color:#888f86; 
     padding-right:0;
     margin-right:0;  
 }
@@ -22,7 +22,6 @@
 .row{
     padding-right:0;
     margin-right:0;  
-    
 }
 
 .etiqueta{
@@ -31,15 +30,17 @@
     text-transform: capitalize;
     display: inline-block;
     background: orange;
-    padding: 0.5rem 4.5rem;
-    margin-bottom: 2rem;
-    font-size: 25px;
+    padding: 0.5rem 2rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
     margin-left: -64px;
     position: relative;
     width: auto;
     box-shadow: 1px 1px 5px rgb(65, 65, 65);
     -moz-box-shadow: 1px 1px 5px rgb(65, 65, 65);
     -webkit-box-shadow: 1px 1px 5px rgb(65, 65, 65);
+    transform: rotate(-18deg);
+    transform-origin: bottom left;
 }
 
 .forma{
@@ -59,13 +60,21 @@ em{ color: dodgerblue !important;
     font-style: normal;
 }
 
-@media screen and (min-width: 700px) and (max-width: 948px){
+@media screen and (min-width: 700px) and (max-width: 950px){
     .card{
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 2rem;
         padding-top: 0.5rem;
         margin-right: 3rem;
         margin-left: 3rem;
+    }
+    
+    .etiqueta{
+        font-size: 18px;
+        padding: 0.5rem 1.8rem;
+        transform: rotate(-11deg);
+        transform-origin: bottom left;
+        margin-top: 0.7rem;
     }
 
     img{
@@ -76,11 +85,12 @@ em{ color: dodgerblue !important;
 
 @media screen and (min-width: 600px) and (max-width: 700px){
     .card{
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 2rem;
         padding-top: 0.5rem;
         margin-right: 3rem;
         margin-left: 3rem;
+        padding-top: 0;
     }
 
     img{
@@ -89,16 +99,17 @@ em{ color: dodgerblue !important;
     }   
 
     .etiqueta{
-        font-size: 20px;
-        padding-left: 40px;
-        padding-right: 40px;
+        font-size: 15px;
+        padding: 0.5rem 1.2rem;
+        transform: rotate(-10deg);
+        transform-origin: bottom left;
     }
 }
 
 @media screen and (max-width: 600px){
     .card{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         padding-top: 0.5rem;
         margin-right: 2rem;
         margin-left: 2rem;
@@ -109,10 +120,18 @@ em{ color: dodgerblue !important;
         max-width: 80%;
     }   
 
+   .card {
+       margin-top: 1rem;
+       padding-top: 0;
+   }
+
     .etiqueta{
-        font-size: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 12px;
+        padding: 0.5rem 1rem;
+        transform: rotate(-8deg);
+        transform-origin: bottom left;
     }
 
     p{    font-size: 12px;    }
