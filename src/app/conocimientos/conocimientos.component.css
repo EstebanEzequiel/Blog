@@ -22,7 +22,10 @@ h6{
     padding-bottom: 0;
 }
 
-h1{  font-family: 'Roboto', sans-serif; }
+h1{  
+    font-family: 'Roboto', sans-serif; 
+    text-transform: initial;
+}
 
 .container-fluid { 
     background-color:#888f86;
@@ -50,7 +53,6 @@ h1{  font-family: 'Roboto', sans-serif; }
 .etiqueta{
     color: rgba(42, 3, 94, 0.486);
     font-weight: bold;
-    text-transform: capitalize;
     display: inline-block;
     background: rgb(0, 195, 255);
     padding: 0.5rem 2rem;
