@@ -6,10 +6,10 @@
 }
 
 .filtro{
-    background: rgba(47, 47, 47, 0.65);
+    background: rgba(47, 47, 47, 0.75);
     top: 0;
     left: 0;
-    height: 21rem;
+    height: 24rem;
     position: relative;
 }
 
@@ -34,7 +34,20 @@ margin-right:0;
 
 h1 { font-weight: bold;}
 
-h3 { color: turquoise;}
+.container{
+    position: relative;
+}
+
+p{
+    position: absolute;
+    top: 205%;
+    left: 0;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+
 
 @media screen and (min-width: 700px ) and (max-width: 1000px){
 
@@ -75,4 +88,10 @@ h3 { color: turquoise;}
     #nombre { top: 7rem; left: 0.2rem;}
 
     .filtro { height: 16rem;}
+
+    p {
+        font-size: 16.5px;
+        top: 250%;
+        left: 0;
+    }
 }
