@@ -1,5 +1,5 @@
 .card{
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     margin-right: 5rem;
     margin-left: 5rem;
@@ -8,12 +8,22 @@
     padding-bottom: 3rem;
     border-radius: 0px;
     border: none;
-    box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
-    -moz-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
-    -webkit-box-shadow: 10px 0 20px -10px rgb(65, 65, 65);
+    box-shadow: 0px 7px 12px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
 }
 
-.container-fluid { background-color:#7f7679; }
+.container-fluid { 
+    background-color:#8f8689; 
+    padding-right:0;
+    margin-right:0;  
+}
+
+.row{
+    padding-right:0;
+    margin-right:0;  
+    
+}
 
 .etiqueta{
     color: rgba(42, 3, 94, 0.486);
@@ -27,9 +37,9 @@
     margin-left: -64px;
     position: relative;
     width: auto;
-    box-shadow: 1.1px 0 8.9px -3.1px rgb(0, 0, 0);
-    -moz-box-shadow: 1.1px 0 8.9px -3.1px rgb(0, 0, 0);
-    -webkit-box-shadow: 1.1px 0 8.9px -3.1px rgb(0, 0, 0);
+    box-shadow: 1px 1px 5px rgb(65, 65, 65);
+    -moz-box-shadow: 1px 1px 5px rgb(65, 65, 65);
+    -webkit-box-shadow: 1px 1px 5px rgb(65, 65, 65);
 }
 
 .forma{
@@ -56,10 +66,6 @@ em{ color: dodgerblue !important;
         padding-top: 0.5rem;
         margin-right: 3rem;
         margin-left: 3rem;
-        border-radius: 0px;
-        box-shadow: 0px 7px 12px rgb(0, 0, 0);
-        -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-        -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
     }
 
     img{
@@ -75,10 +81,6 @@ em{ color: dodgerblue !important;
         padding-top: 0.5rem;
         margin-right: 3rem;
         margin-left: 3rem;
-        border-radius: 0px;
-        box-shadow: 0px 7px 12px rgb(0, 0, 0);
-        -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-        -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
     }
 
     img{
@@ -100,10 +102,6 @@ em{ color: dodgerblue !important;
         padding-top: 0.5rem;
         margin-right: 2rem;
         margin-left: 2rem;
-        border-radius: 0px;
-        box-shadow: 0px 7px 12px rgb(0, 0, 0);
-        -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-        -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
     }
 
     img{

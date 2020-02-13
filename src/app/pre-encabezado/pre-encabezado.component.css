@@ -40,7 +40,6 @@ h5 {
 }
 
 @media screen and (min-width: 1000px ) and (max-width: 1200px){
-
     img { 
         height: 5vw; 
         top: 2vw; 
@@ -59,7 +58,6 @@ h5 {
 }
 
 @media screen and (min-width: 800px ) and (max-width: 1000px){
-
     img { 
         height: 5vw; 
         top: 2vw; 
@@ -78,7 +76,6 @@ h5 {
 }
 
 @media screen and (min-width: 650px ) and (max-width: 800px){
-
     img { 
         height: 5vw; 
         top: 2vw; 
@@ -97,7 +94,6 @@ h5 {
 }
 
 @media screen and (min-width: 550px ) and (max-width: 650px){
-
     img { 
         height: 5vw; 
         top: 2vw; 
@@ -116,7 +112,6 @@ h5 {
 }
 
 @media screen and (min-width: 400px ) and (max-width: 550px){
-
     img { 
         height: 5vw; 
         top: 2vw; 
@@ -136,7 +131,6 @@ h5 {
 }
 
 @media screen and (max-width: 400px){
-
     img { 
         height: 5vw; 
         top: 1vw; 

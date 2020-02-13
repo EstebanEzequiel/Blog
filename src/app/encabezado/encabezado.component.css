@@ -1,5 +1,3 @@
-
-
 .fondo{
     background: url(../../assets/escritorio.jpg);
     background-size: cover;
@@ -17,12 +15,18 @@
 
 img {
     height: 12rem;
-    border: 1px solid white;
     position: absolute;
     margin: auto;
     top: 6rem;
     right: 1rem;
 }
+
+.row{
+padding-right:0;
+margin-right:0;  
+
+}
+
 
 #nombre{
     top: 8rem;
