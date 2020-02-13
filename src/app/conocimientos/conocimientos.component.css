@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
-
 .card{
     width: auto;
     margin-top: 1rem;
@@ -28,7 +24,7 @@ h6{
 
 h1{  font-family: 'Roboto', sans-serif; }
 
-.container-fluid { background-color:rgba(64, 179, 224, 0.637); }
+.container-fluid { background-color:#7f7679 ; }
 
 .etiqueta{
     color: rgba(29, 0, 66, 0.685);

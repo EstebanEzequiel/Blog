@@ -8,17 +8,144 @@
     background: rgb(64, 179, 224,0.7);
     top: 0;
     left: 0;
-    height: 10rem;
-    position: relative;
+    height: 9rem;
 }
 
 .nav{
     background-color: rgb(64, 179, 224,0.85);
+    padding: 1vw;
+}
+
+#logo{
+    position: relative;
 }
 
 img{
-    height: 3rem;
-    border-radius: 50%;
     position: absolute;
-    margin: auto;
+    height: 3vw;
+    border-radius: 50%;
+    top: 2vw;
+    left: 2vw;
+}
+
+h5 {
+    color: white;
+    position: absolute;
+    text-transform: capitalize;
+    font-weight: bold;
+    top: 2.5vw;
+    font-size: 1.5rem;
+    left: 5vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 1000px ) and (max-width: 1200px){
+
+    img { 
+        height: 5vw; 
+        top: 2vw; 
+        left: 0;
+    }
+
+    .filtro {
+        height: 8rem;
+    }
+
+    h5 { 
+        font-size: 18px;
+        top: 3.5vw;
+        left: 6vw;
+    }
+}
+
+@media screen and (min-width: 800px ) and (max-width: 1000px){
+
+    img { 
+        height: 5vw; 
+        top: 2vw; 
+        left: 0;
+    }
+
+    .filtro {
+        height: 8rem;
+    }
+
+    h5 { 
+        font-size: 16px;
+        top: 3.5vw;
+        left: 6vw;
+    }
+}
+
+@media screen and (min-width: 650px ) and (max-width: 800px){
+
+    img { 
+        height: 5vw; 
+        top: 2vw; 
+        left: 0;
+    }
+
+    .filtro {
+        height: 6.5rem;
+    }
+
+    h5 { 
+        font-size: 14px;
+        top: 3.5vw;
+        left: 6vw;
+    }
+}
+
+@media screen and (min-width: 550px ) and (max-width: 650px){
+
+    img { 
+        height: 5vw; 
+        top: 2vw; 
+        left: 0;
+    }
+
+    .filtro {
+        height: 6rem;
+    }
+
+    h5 { 
+        font-size: 10px;
+        top: 3.5vw;
+        left: 6vw;
+    }
+}
+
+@media screen and (min-width: 400px ) and (max-width: 550px){
+
+    img { 
+        height: 5vw; 
+        top: 2vw; 
+        left: 0;
+    }
+
+    .filtro {
+        height: 5rem;
+    }
+
+    h5 { 
+        font-size: 9px;
+        top: 3.8vw;
+        left: 6vw;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    img { 
+        height: 5vw; 
+        top: 1vw; 
+        left: 0;
+    }
+
+    .filtro {
+        height: 3.8rem;
+    }
+
+    h5 { font-size: 7px;}
 }
