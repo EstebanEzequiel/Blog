@@ -43,7 +43,7 @@ p{
     top: 205%;
     left: 0;
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 2rem 2rem;
     color: white;
     font-family: 'Caveat', cursive;
 }
@@ -59,6 +59,10 @@ p{
 
     #nombre { left: 2rem; }
 
+    p {
+        font-size: 30px;
+        top: 220%;
+    }
 }
 
 @media screen and (min-width: 400px ) and (max-width: 700px){
@@ -72,6 +76,11 @@ p{
     img { height: auto; right: -0.5rem; top: 7rem;}
 
     #nombre { left: 0.5rem;}
+
+    p {
+        font-size: 20px;
+        top: 340%;
+    }
 
 }
 
@@ -93,5 +102,6 @@ p{
         font-size: 16.5px;
         top: 250%;
         left: 0;
+        margin-bottom: 2rem;
     }
 }
