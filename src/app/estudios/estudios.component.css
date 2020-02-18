@@ -1,5 +1,5 @@
 .card{
-    margin-top: 0;
+    margin-top: 1rem;
     margin-bottom: 1.5rem;
     margin-right: 5rem;
     margin-left: 5rem;
@@ -14,7 +14,7 @@
 }
 
 .container-fluid { 
-    background-color:#888f86; 
+    background-color:#676d66; 
     padding-right:0;
     margin-right:0;  
 }
@@ -106,33 +106,42 @@ em{ color: dodgerblue !important;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 320px){
     .card{
-        margin-top: 1rem;
+        margin-top: 0.8rem;
         margin-bottom: 1rem;
-        padding-top: 0.5rem;
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        padding: 0;
     }
 
     img{
         height: auto;
-        max-width: 80%;
+        max-width: 90%;
     }   
 
-   .card {
-       margin-top: 1rem;
-       padding-top: 0;
-   }
-
+    .forma{
+        border-left: 13px solid transparent;
+        border-top: 8px solid rgba(122, 69, 1, 0.877);
+    }
     .etiqueta{
-        margin-top: 0;
+        margin-top: 0.5rem;
         padding-top: 0;
-        font-size: 12px;
-        padding: 0.5rem 1rem;
-        transform: rotate(-8deg);
+        font-size: 10px;
+        padding: 0.4rem 0.9rem 0.4rem 0.5rem;
+        transform: rotate(-15deg);
         transform-origin: bottom left;
+        margin-left: -35px;
     }
 
-    p{    font-size: 12px;    }
+    p{
+        font-size: 10px;    
+        padding: 0;
+        margin: 0;
+    }
+
+    img{
+        margin: 0;
+        padding: 0;
+    }
 }

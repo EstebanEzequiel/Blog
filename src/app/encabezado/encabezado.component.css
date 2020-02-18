@@ -9,7 +9,7 @@
     background: rgba(47, 47, 47, 0.75);
     top: 0;
     left: 0;
-    height: 24rem;
+    height: 29rem;
     position: relative;
 }
 
@@ -96,7 +96,7 @@ p{
 
     #nombre { top: 7rem; left: 0.2rem;}
 
-    .filtro { height: 16rem;}
+    .filtro { height: 22rem;}
 
     p {
         font-size: 16.5px;
