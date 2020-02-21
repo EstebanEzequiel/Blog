@@ -7,47 +7,42 @@
 
 .filtro{
     background: rgba(47, 47, 47, 0.75);
-    top: 0;
-    left: 0;
-    height: 29rem;
-    position: relative;
-}
-
-img {
-    height: 12rem;
-    position: absolute;
-    margin: auto;
-    top: 6rem;
-    right: 1rem;
+    height: 33rem;
+    display: flex; /*filtro padre de row, sus propiedades centran el div row*/
+    align-items: flex-end;
 }
 
 .row{
-padding-right:0;
-margin-right:0;  
-
+    margin: 0 auto;
 }
 
+#foto{ /*contenedor padre para foto, estas propiedades centran la foto*/
 
-#nombre{
-    top: 8rem;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+img {
+    height: auto;
+    width: 12em;    
+    margin-bottom: -1em;
+}
+
+#angular{ text-align: right; }
+
+#texto{
+    text-align: right;
+    padding-bottom: 2em;
+}
+
+h3 {
+    font-family: 'Teko';
+    font-weight: normal;
+    text-align: justify;
 }
 
 h1 { font-weight: bold;}
-
-.container{
-    position: relative;
-}
-
-p{
-    position: absolute;
-    top: 205%;
-    left: 0;
-    margin: 0;
-    padding: 1rem 2rem 2rem;
-    color: white;
-    font-family: 'Caveat', cursive;
-}
-
 
 @media screen and (min-width: 425px ) and (max-width: 768px){
 
@@ -65,7 +60,7 @@ p{
     }
 }
 
-@media screen and (min-width: 320px ) and (max-width: 425px){
+@media screen and (min-width: 370px ) and (max-width: 425px){
 
     h1{ font-size: 18px; }
     
@@ -81,27 +76,45 @@ p{
         font-size: 20px;
         top: 300%;
     }
-
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
 
-    h3 {  font-size:12px;  }
+    .filtro { height: 16rem;}
 
-    h2 { font-size: 14px;  }
- 
-    h1 { font-size: 16px; }
+    #texto{ padding-bottom: 0.5em; }
 
-    img { height: auto;  right: -0.5rem;}
+    h1 { 
+        font-size: 16px; 
+        margin: 0;
+        padding: 0;
+    }
 
-    #nombre { top: 7rem; left: 0.2rem;}
+    h2 { 
+        font-size: 14px;  
+        margin: 0;
+        padding: 0;
+    }
 
-    .filtro { height: 22rem;}
+    img { 
+        height: auto; 
+        width: 5em; 
+        margin-bottom: -0.5em;
+    }
 
-    p {
-        font-size: 16.5px;
-        top: 250%;
-        left: 0;
-        margin-bottom: 2rem;
+    h3 {
+        font-size: 14px;
+        font-family: 'Teko';
+        font-weight: normal;
     }
 }
+
+@media screen and (min-width: 768px ) and (max-width: 1024px){}
+
+@media screen and (min-width: 611px ) and (max-width: 768px){}
+
+@media screen and (min-width: 512px ) and (max-width: 611px){}
+
+@media screen and (min-width: 425px ) and (max-width: 512px){}
+
+@media screen and (min-width: 375px ) and (max-width: 425px){}

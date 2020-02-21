@@ -6,9 +6,7 @@
 
 .filtro{
     background: rgb(64, 179, 224,0.7);
-    top: 0;
-    left: 0;
-    height: 9rem;
+    height: 7.1em;
 }
 
 .nav{
@@ -17,129 +15,53 @@
 }
 
 #logo{
-    position: relative;
+    
+    display:flex;
+    align-items: center;
+}
+
+.modal-content{
+    border-radius: 5px 5px 5px 5px;
+    border: 0px;
 }
 
 img{
-    position: absolute;
-    height: 3vw;
-    border-radius: 50%;
-    top: 2vw;
-    left: 2vw;
+    height: 3.5em;
+    margin: auto;
 }
 
-h5 {
-    color: white;
-    position: absolute;
-    text-transform: capitalize;
-    font-weight: bold;
-    top: 2.5vw;
-    font-size: 1.5rem;
-    left: 5vw;
-    font-family: 'Poppins', sans-serif;
+@media screen and (min-width: 768px ) and (max-width: 1024px){
+    img { height: 3em; }
+
+    .filtro {   height: 6.5em;   }
 }
 
-@media screen and (min-width: 1000px ) and (max-width: 1200px){
-    img { 
-        height: 5vw; 
-        top: 2vw; 
-        left: 0;
-    }
+@media screen and (min-width: 611px ) and (max-width: 768px){
+    img { height: 2.5em; }
 
-    .filtro {
-        height: 8rem;
-    }
-
-    h5 { 
-        font-size: 18px;
-        top: 3.5vw;
-        left: 6vw;
-    }
+    .filtro {   height: 5.5em;   }
 }
 
-@media screen and (min-width: 800px ) and (max-width: 1000px){
-    img { 
-        height: 5vw; 
-        top: 2vw; 
-        left: 0;
-    }
+@media screen and (min-width: 512px ) and (max-width: 611px){
+    img { height: 2.5em; }
 
-    .filtro {
-        height: 8rem;
-    }
-
-    h5 { 
-        font-size: 16px;
-        top: 3.5vw;
-        left: 6vw;
-    }
+    .filtro {   height: 5.5em;   }
 }
 
-@media screen and (min-width: 650px ) and (max-width: 800px){
-    img { 
-        height: 5vw; 
-        top: 2vw; 
-        left: 0;
-    }
+@media screen and (min-width: 425px ) and (max-width: 512px){
+    img { height: 2.5em; }
 
-    .filtro {
-        height: 6.5rem;
-    }
-
-    h5 { 
-        font-size: 14px;
-        top: 3.5vw;
-        left: 6vw;
-    }
+    .filtro {   height: 5em;   }
 }
 
-@media screen and (min-width: 550px ) and (max-width: 650px){
-    img { 
-        height: 5vw; 
-        top: 2vw; 
-        left: 0;
-    }
+@media screen and (min-width: 375px ) and (max-width: 425px){
+    img { height: 2em; }
 
-    .filtro {
-        height: 6rem;
-    }
-
-    h5 { 
-        font-size: 10px;
-        top: 3.5vw;
-        left: 6vw;
-    }
+    .filtro {   height: 4.6em;   }
 }
 
-@media screen and (min-width: 400px ) and (max-width: 550px){
-    img { 
-        height: 5vw; 
-        top: 2vw; 
-        left: 0;
-    }
+@media screen and (max-width: 375px){
+    img { height: 1.5em; }
 
-    .filtro {
-        height: 5rem;
-    }
-
-    h5 { 
-        font-size: 9px;
-        top: 3.8vw;
-        left: 6vw;
-    }
-
-}
-
-@media screen and (max-width: 400px){
-    img { 
-        height: 5vw; 
-        top: 1vw; 
-        left: 0;
-    }
-
-    .filtro {
-        height: 3.8rem;
-    }
-
-    h5 { font-size: 7px;}
+    .filtro {   height: 4em;   }
 }

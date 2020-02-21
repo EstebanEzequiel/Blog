@@ -1,73 +1,36 @@
-.card{
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
-    padding: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 3rem;
-    border-radius: 0px;
-    border: none;
-    box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -moz-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-    -webkit-box-shadow: 0px 7px 12px rgb(0, 0, 0);
-}
-
-.container-fluid { 
-    background-color:#676d66; 
-    padding-right:0;
-    margin-right:0;  
-}
-
-.row{
-    padding-right:0;
-    margin-right:0;  
+.container{
+    position: relative;
 }
 
 .etiqueta{
-    color: rgba(42, 3, 94, 0.486);
+    color: rgba(42, 3, 94, 0.795);
     font-weight: bold;
     text-transform: capitalize;
-    display: inline-block;
     background: orange;
     padding: 0.5rem 2rem;
-    margin-top: 3rem;
     font-size: 1.5rem;
-    margin-left: -64px;
-    position: relative;
-    width: auto;
-    box-shadow: 1px 1px 5px rgb(65, 65, 65);
-    -moz-box-shadow: 1px 1px 5px rgb(65, 65, 65);
-    -webkit-box-shadow: 1px 1px 5px rgb(65, 65, 65);
-    transform: rotate(-18deg);
-    transform-origin: bottom left;
-}
-
-.forma{
-    width: 0px;
-    height: 0px;
-    line-height: 0px;
-    border-left: 26px solid transparent;
-    border-top: 8px solid rgba(122, 69, 1, 0.877);
+    margin-left: -20px;
     position: absolute;
-    top: 100%;
-    left: 0px;
+    top: 14%;
+    left: 0;
+    box-shadow: 2px 4px 5px #5c5858;
+    -moz-box-shadow: 2px 4px 5px #5c5858;
+    -webkit-box-shadow: 2px 4px 5px #5c5858;
+    transform: rotate(-20deg);
+    transform-origin: bottom left;
+    z-index: 1;
 }
 
-h1{ font-family: 'Roboto', sans-serif; }
+h5{ font-family: 'Teko' !important;  }
 
-em{ color: dodgerblue !important;  
-    font-style: normal;
+.card{
+    border: 0;
+    box-shadow: 10px 10px 14px #747474;
+    margin-top: 4.5rem !important;
 }
 
 @media screen and (min-width: 700px) and (max-width: 950px){
-    .card{
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        padding-top: 0.5rem;
-        margin-right: 3rem;
-        margin-left: 3rem;
-    }
+   
     
     .etiqueta{
         font-size: 18px;
@@ -84,14 +47,7 @@ em{ color: dodgerblue !important;
 }
 
 @media screen and (min-width: 600px) and (max-width: 700px){
-    .card{
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        padding-top: 0.5rem;
-        margin-right: 3rem;
-        margin-left: 3rem;
-        padding-top: 0;
-    }
+    
 
     img{
         height: auto;
@@ -107,14 +63,7 @@ em{ color: dodgerblue !important;
 }
 
 @media screen and (max-width: 320px){
-    .card{
-        margin-top: 0.8rem;
-        margin-bottom: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        padding: 0;
-    }
-
+    
     img{
         height: auto;
         max-width: 90%;
