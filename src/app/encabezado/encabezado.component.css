@@ -26,7 +26,7 @@
 img {
     height: auto;
     width: 12em;    
-    margin-bottom: -1em;
+    margin-bottom: 1em;
 }
 
 #angular{ text-align: right; }
@@ -41,8 +41,6 @@ h3 {
     font-weight: normal;
     text-align: justify;
 }
-
-h1 { font-weight: bold;}
 
 @media screen and (min-width: 425px ) and (max-width: 768px){
 
@@ -108,7 +106,6 @@ h1 { font-weight: bold;}
         font-weight: normal;
     }
 }
-
 @media screen and (min-width: 768px ) and (max-width: 1024px){}
 
 @media screen and (min-width: 611px ) and (max-width: 768px){}
