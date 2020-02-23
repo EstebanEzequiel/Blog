@@ -10,6 +10,12 @@ import { PreEncabezadoComponent } from './pre-encabezado/pre-encabezado.componen
 import { EstudiosComponent } from './estudios/estudios.component';
 import { PersonalComponent } from './personal/personal.component';
 import { CursosComponent } from './cursos/cursos.component';
+import { FrontendComponent } from './conocimientos/frontend/frontend.component';
+import { BackendComponent } from './conocimientos/backend/backend.component';
+import { FrameworksComponent } from './conocimientos/frameworks/frameworks.component';
+import { DatabaseComponent } from './conocimientos/database/database.component';
+import { OSComponent } from './conocimientos/os/os.component';
+import { ControlVersionesComponent } from './conocimientos/control-versiones/control-versiones.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +27,13 @@ import { CursosComponent } from './cursos/cursos.component';
     PreEncabezadoComponent,
     EstudiosComponent,
     PersonalComponent,
-    CursosComponent
+    CursosComponent,
+    FrontendComponent,
+    BackendComponent,
+    FrameworksComponent,
+    DatabaseComponent,
+    OSComponent,
+    ControlVersionesComponent
   ],
   imports: [
     BrowserModule
