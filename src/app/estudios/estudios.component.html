@@ -1,12 +1,14 @@
-<div class="container">
-  <h6 class="etiqueta">Formacion Academica<span class="forma"></span></h6>
-  <div class="card-columns">
-    <div class="card my-5 text-center" style="max-width: 540px;" *ngFor='let item of estudios'>
-      <img src="{{item.foto}}" class="img-fluid" height="auto" width="355em" alt="">
-          <div class="card-body">
-            <p class="card-text text-justify">{{item.contenido}}</p>
-            <p class="card-text"><small class="text-muted">{{item.fecha}}</small></p>
-          </div>
+<div class="container-fluid bg-dark">
+  <div class="container">
+    <h6 class="etiqueta">Formacion Academica<span class="forma"></span></h6>
+    <div class="card-columns">
+      <div class="card my-5 bg-dark text-white" style="max-width: 540px;" *ngFor='let item of estudios'>
+        <img src="{{item.foto}}" class="img-fluid" height="auto" width="355em" alt="">
+            <div class="card-body">
+              <p class="card-text text-justify">{{item.contenido}}</p>
+              <p class="card-text"><small class="text-muted">{{item.fecha}}</small></p>
+            </div>
+      </div>
     </div>
   </div>
 </div>

@@ -58,15 +58,13 @@ h3 {
     }
 }
 
-@media screen and (min-width: 370px ) and (max-width: 425px){
+@media screen and (min-width: 375px ) and (max-width: 425px){
 
     h1{ font-size: 18px; }
     
     h2 { font-size: 16px;  }
 
     h3 {  font-size:14px;  }
-
-    img { height: auto; right: -0.5rem; top: 7rem;}
 
     #nombre { left: 0.5rem;}
 

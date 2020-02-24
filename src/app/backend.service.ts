@@ -5,5 +5,29 @@ import { Injectable } from '@angular/core';
 })
 export class BackendService {
 
-  constructor() { }
+  back:any[] = [
+
+    {
+      foto:'assets/nodejs.jpg',
+      porcentaje:'25',
+      tecnologia:'Node'
+    },
+    {
+      foto:'assets/php.png',
+      porcentaje:'30',
+      tecnologia:'PHP'
+    },
+    {
+      foto:'assets/python.png',
+      porcentaje:'40',
+      tecnologia:'Python'
+    }
+  ]
+  
+  constructor(){}
+
+  obtenerBack()
+  {
+    return this.back;
+  }
 }

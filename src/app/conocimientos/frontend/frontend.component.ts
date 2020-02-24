@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FrontendService } from '../../frontend.service'
 
 @Component({
   selector: 'app-frontend',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FrontendComponent implements OnInit {
 
-  constructor() { }
+  frontend:any[] = [];
 
-  ngOnInit(): void {
+  constructor( private _servicio:FrontendService) 
+  {
+    this.frontend = _servicio.obtenerFrontend();
   }
+
+  ngOnInit(): void {}
 
 }

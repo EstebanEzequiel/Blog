@@ -1,1 +1,17 @@
-<p>os works!</p>
+<div class="container">    
+    <div class="card-columns">
+      <div class="card mb-3" style="max-width: 540px;" *ngFor="let item of os">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="{{item.foto}}" class="card-img p-1">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <progress max="100" value="{{item.porcentaje}}"></progress>
+                <p class="card-text"><small class="text-muted">conocimientos en {{item.tecnologia}} de {{item.porcentaje}}%</small></p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
