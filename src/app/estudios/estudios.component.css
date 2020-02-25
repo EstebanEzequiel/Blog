@@ -24,7 +24,6 @@
     /* box-shadow: 5px 5px 7px #888888;
     -moz-box-shadow: 5px 5px 7px #888888;
     -webkit-box-shadow: 5px 5px 7px #888888; */
-    margin-top: 1.5em !important;
     border: none;
     /* transform: scale(1,1);
     transition-timing-function: ease-out;
@@ -36,6 +35,10 @@
     transition-timing-function: ease-out;
     transition-duration: 250ms;
 } */
+
+img{
+    border-radius: 4px;
+}
 
 @media screen and (min-width: 700px) and (max-width: 950px){
     .etiqueta{
@@ -66,8 +69,7 @@
     }
 }
 
-@media screen and (max-width: 375px){
-    
+@media screen and (max-width: 375px){    
     img{
         height: auto;
         max-width: 100%;

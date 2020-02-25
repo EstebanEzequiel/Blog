@@ -9,7 +9,6 @@ export class ConocimientosComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

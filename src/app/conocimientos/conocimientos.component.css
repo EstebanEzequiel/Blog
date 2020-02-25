@@ -1,13 +1,7 @@
-.jumbotron{
-    border-radius: 0px;
-}
-
-h3{
-    color: darkorange;
+h4{
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    padding-left: 1vw;
 }
 
 .etiqueta{
@@ -36,6 +30,27 @@ h3{
     position: absolute;
     top: 100%;
     left: 0px;
+}
+
+#main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#seccion{
+    display: inline-block;
+    width: 75%;
+}
+
+aside{
+
+    float: right;
+    width: 25%;
+}
+
+a{
+    color: white;
 }
 
 @media screen and (max-width: 375px)

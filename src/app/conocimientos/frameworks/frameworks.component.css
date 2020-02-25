@@ -1,11 +1,13 @@
 .card{
     border: none;
-    box-shadow: 5px 5px 7px black;
+    /* box-shadow: 5px 5px 7px black;
     -moz-box-shadow: 5px 5px 7px black;
-    -webkit-box-shadow: 5px 5px 7px black;
+    -webkit-box-shadow: 5px 5px 7px black; */
 }
 
-
+progress {
+    max-width: 100%;
+}
 
 @media screen and (max-width: 375px){
 
