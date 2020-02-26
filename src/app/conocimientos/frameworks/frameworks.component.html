@@ -1,17 +1,15 @@
-<div class="container">    
-  <div class="card-columns">
-    <div class="card mb-3" style="max-width: 540px;" *ngFor="let item of framework">
+<div class="card-columns">
+  <div class="card mb-3" style="max-width: 540px;" *ngFor="let item of framework">
         <div class="row no-gutters">
           <div class="col-md-7">
             <div class="card-body">
               <progress max="100" value="{{item.porcentaje}}"></progress>
-              <small class="text-muted">{{item.porcentaje}}% en {{item.tecnologia}}</small>
+              <small class="text-muted">{{item.tecnologia}} {{item.porcentaje}}%</small>
             </div>
           </div>
           <div class="col-md-5">
             <img src="{{item.foto}}" class="card-img">
           </div>
         </div>
-    </div>
   </div>
 </div>

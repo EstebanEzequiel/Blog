@@ -11,7 +11,6 @@
     position: absolute;
     top: 18%;
     left: 0;
-    border-radius: 7px;
     box-shadow: 1px 2px 5px #343a40;
     -moz-box-shadow: 1px 2px 5px #343a40;
     -webkit-box-shadow: 1px 2px 5px #343a40;
@@ -38,10 +37,6 @@
 
 img{
     border-radius: 4px;
-}
-
-p{
-    font-family: 'Space Mono';
 }
 
 h5{

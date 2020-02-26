@@ -6,16 +6,20 @@
 }
 
 .filtro{
-    background: rgba(47, 47, 47, 0.9);
-    height: 12rem;
-    display: flex; /*filtro padre de row, sus propiedades centran el div row*/
+    background: rgba(47, 47, 47, 0.7);
+    height: 14rem;
+    display: flex;
     align-items: center;
 }
 
-.row{
-    margin-top: -5rem;
+a{
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono';
+    font-size: small
 }
-
-hr{
-    width: 50%;
-}
+/* alinear iconos a:link en una lista */

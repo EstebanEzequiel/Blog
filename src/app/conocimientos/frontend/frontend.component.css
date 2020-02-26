@@ -1,5 +1,5 @@
 .card{
-    border: none;
+    border-radius: 5px 0px 0px 5px;
     /* box-shadow: 5px 5px 7px black;
     -moz-box-shadow: 5px 5px 7px black;
     -webkit-box-shadow: 5px 5px 7px black; */
@@ -9,11 +9,6 @@ progress {
     max-width: 100%;
 }
 
-small{
-    font-size: 1.67vh;
-}
-
 @media screen and (max-width: 375px){
-
     .card{  text-align: center; }
 }

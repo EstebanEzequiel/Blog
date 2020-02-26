@@ -21,7 +21,7 @@ h1{
 }
 
 hr{
-    width: 90%;
+    width: 100%;
 }
 
 .etiqueta{
@@ -50,6 +50,11 @@ hr{
     position: absolute;
     top: 100%;
     left: 0px;
+}
+
+.collapse{
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .container{

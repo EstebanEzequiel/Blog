@@ -6,8 +6,8 @@
 }
 
 .filtro{
-    background: rgba(47, 47, 47, 0.6);
-    height: 33rem;
+    background: rgba(47, 47, 47, 0.8);
+    height: 25rem;
     display: flex; /*filtro padre de row, sus propiedades centran el div row*/
     align-items: flex-end;
 }
@@ -36,13 +36,12 @@ img {
     padding-bottom: 2em;
 }
 
-h3 {
+h4 {
     font-family: fantasy;
-    color: whitesmoke !important;
 }
 
 h1, h2{
-    font-family: 'Teko';
+    font-family: 'Nunito';
 }
 
 @media screen and (min-width: 425px ) and (max-width: 768px){
