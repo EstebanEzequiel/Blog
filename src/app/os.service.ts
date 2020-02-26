@@ -15,7 +15,7 @@ export class OSService {
     {
       foto:'assets/ubuntu.png',
       porcentaje:'35',
-      tecnologia:'Linux Ubuntu'
+      tecnologia:'Ubuntu'
     }
   ]
 

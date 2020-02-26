@@ -1,43 +1,53 @@
 <div class="container">
+    <div class="row row-cols-2">
+        <div class="col-9">
+                <h1 class="mt-5 display-4 text-capitalize text-center text-white-50">conocimientos tecnicos</h1>
+                <h5 class="text-dark mt-3 ml-0 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code"></i></span>Frontend</h5>
+                <hr class="bg-warning m-0 p-0">
+                    <div class="collapse" id="collapseExample">
+                        <br>
+                        <app-frontend></app-frontend>
+                    </div>
+                <h5 class="text-dark mt-3 ml-1 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code"></i></span>Backend</h5>
+                <hr class="bg-warning m-0 p-0 ml-1">
+                    <div class="collapse" id="collapseExample1">
+                        <br>
+                        <app-backend></app-backend>
+                    </div>
+                <h5 class="text-dark mt-3 ml-2 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-cogs"></i></span>Frameworks</h5>
+                <hr class="bg-warning m-0 p-0 ml-2">
+                    <div class="collapse" id="collapseExample2">
+                        <br>
+                        <app-frameworks></app-frameworks>
+                    </div>
+                <h5 class="text-dark mt-3 ml-3 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-database"></i></span>Base de Datos</h5>
+                <hr class="bg-warning m-0 p-0 ml-3">
+                    <div class="collapse" id="collapseExample3">
+                        <br>
+                        <app-database></app-database>
+                    </div>
+                <h5 class="text-dark mt-3 ml-4 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-laptop-code"></i></span>S. Operativos</h5>
+                <hr class="bg-warning m-0 p-0 ml-4">
+                    <div class="collapse ml-4" id="collapseExample4">
+                        <br>
+                        <app-os></app-os>
+                    </div>
+                <h5 class="text-dark mt-3 ml-5 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code-branch"></i></span>C. de Versiones</h5>
+                <hr class="bg-warning m-0 p-0 ml-5">
+                    <div class="collapse ml-5" id="collapseExample5">
+                        <br>
+                        <app-control-versiones></app-control-versiones>
+                    </div>
+        </div>
+        <div class="col-3">
+            <app-aside></app-aside>
+        </div>
+    </div>
+    
     <section id="main">
-        <section id="seccion">
-            <h4 class="text-warning my-3" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code"></i></span>Frontend</h4>
-                <div class="collapse" id="collapseExample">
-                    <app-frontend></app-frontend>
-                </div>
-            <h4 class="text-warning my-3" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code"></i></span>Backend</h4>
-                <div class="collapse" id="collapseExample1">
-                    <app-backend></app-backend>
-                </div>
-            <h4 class="text-warning my-3" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-cogs"></i></span>Frameworks Frontend</h4>
-                <div class="collapse" id="collapseExample2">
-                    <app-frameworks></app-frameworks>
-                </div>
-            <h4 class="text-warning my-3" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-database"></i></span>Base de Datos</h4>
-                <div class="collapse" id="collapseExample3">
-                    <app-database></app-database>
-                </div>
-            <h4 class="text-warning my-3" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-laptop-code"></i></span>SO</h4>
-                <div class="collapse" id="collapseExample4">
-                    <app-os></app-os>
-                </div>
-            <h4 class="text-warning my-3" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code-branch"></i></span>Control de Versiones</h4>
-                <div class="collapse" id="collapseExample5">
-                    <app-control-versiones></app-control-versiones>
-                </div>
-        </section>
-        <aside class="text-white text-justify">
-            <h4 class="text-white-50 text-center text-capitalize">perfil</h4>
-            <small>
-                Hola mi nombre Ezequiel Ceballos, soy Desarrollador Web. desde hace un año me dedico al diseño y programacion frontend especificamente para proyectos independientes, eligiendo antetodo la excelencia y la innovacion para una mejor experiencia de usuario. 
-                <br></small>
-           
-            <h4 class="text-white-50 text-center text-capitalize">datos</h4>
-
-            <address class="text-capitalize">nacimiento</address>
-            <small><a href=""></a></small>
-            <small><a href=""></a></small>
-            <small><a href=""></a></small>
+        
+        <aside>
+            
         </aside>
     </section>    
 </div>

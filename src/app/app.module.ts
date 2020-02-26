@@ -8,7 +8,6 @@ import { ConocimientosComponent } from './conocimientos/conocimientos.component'
 import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
 import { PreEncabezadoComponent } from './pre-encabezado/pre-encabezado.component';
 import { EstudiosComponent } from './estudios/estudios.component';
-import { PersonalComponent } from './personal/personal.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { FrontendComponent } from './conocimientos/frontend/frontend.component';
 import { BackendComponent } from './conocimientos/backend/backend.component';
@@ -16,6 +15,9 @@ import { FrameworksComponent } from './conocimientos/frameworks/frameworks.compo
 import { DatabaseComponent } from './conocimientos/database/database.component';
 import { OSComponent } from './conocimientos/os/os.component';
 import { ControlVersionesComponent } from './conocimientos/control-versiones/control-versiones.component';
+import { AsideComponent } from './aside/aside.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { IdiomasComponent } from './idiomas/idiomas.component';
 
 @NgModule({
   declarations: [
@@ -26,14 +28,16 @@ import { ControlVersionesComponent } from './conocimientos/control-versiones/con
     PiePaginaComponent,
     PreEncabezadoComponent,
     EstudiosComponent,
-    PersonalComponent,
     CursosComponent,
     FrontendComponent,
     BackendComponent,
     FrameworksComponent,
     DatabaseComponent,
     OSComponent,
-    ControlVersionesComponent
+    ControlVersionesComponent,
+    AsideComponent,
+    ProyectosComponent,
+    IdiomasComponent
   ],
   imports: [
     BrowserModule
@@ -41,4 +45,4 @@ import { ControlVersionesComponent } from './conocimientos/control-versiones/con
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

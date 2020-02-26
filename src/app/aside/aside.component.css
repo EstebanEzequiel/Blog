@@ -1,0 +1,32 @@
+a{
+    font-size: 0.9em;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/* alinear iconos a:link en una lista */
+
+cite{
+    color: orange !important;
+    font-family: 'Space Mono' !important;
+    font-size: small;
+    font-style: normal;
+}
+
+h4{
+    font-weight: bold;
+    font-family: 'Nunito';
+}
+
+p{
+    font-family: 'Space Mono';
+    font-size: small;
+}
+
+a{
+    font-family: 'Space Mono';
+    font-size: x-small;
+}

@@ -9,6 +9,10 @@ progress {
     max-width: 100%;
 }
 
+small{
+    font-size: 1.67vh;
+}
+
 @media screen and (max-width: 375px){
 
     .card{  text-align: center; }

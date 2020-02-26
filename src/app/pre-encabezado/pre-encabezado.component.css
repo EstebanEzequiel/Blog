@@ -5,12 +5,12 @@
 }
 
 .filtro{
-    background: rgb(64, 179, 224,0.7);
-    height: 7.1em;
+    background: rgba(64, 179, 224, 0.521);
+    height: 6.5em;
 }
 
 .nav{
-    background-color: rgb(64, 179, 224,0.85);
+    background-color: rgba(64, 179, 224, 0.726);
     padding: 1vw;
 }
 
@@ -26,12 +26,12 @@
 }
 
 img{
-    height: 3.5em;
+    height: 2.7em;
     margin: auto;
 }
 
 @media screen and (min-width: 768px ) and (max-width: 1024px){
-    img { height: 3em; }
+    img { height: 2.7em; }
 
     .filtro {   height: 6.5em;   }
 }

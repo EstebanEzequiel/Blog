@@ -3,18 +3,18 @@
 }
 
 .etiqueta{
-    color: rgba(42, 3, 94, 0.795);
     font-weight: bold;
     text-transform: capitalize;
     background: orange;
-    padding: 0.5em 2em;
+    padding: 0.5em 1em;
     margin-left: -18px;
     position: absolute;
     top: 18%;
     left: 0;
-    box-shadow: 1px 2px 2.5px #888888;
-    -moz-box-shadow: 1px 2px 2.5px #888888;
-    -webkit-box-shadow: 1px 2px 2.5px #888888;
+    border-radius: 7px;
+    box-shadow: 1px 2px 5px #343a40;
+    -moz-box-shadow: 1px 2px 5px #343a40;
+    -webkit-box-shadow: 1px 2px 5px #343a40;
     transform: rotate(-30deg);
     transform-origin: bottom left;
     z-index: 1;
@@ -38,6 +38,15 @@
 
 img{
     border-radius: 4px;
+}
+
+p{
+    font-family: 'Space Mono';
+}
+
+h5{
+    font-family: 'Nunito';
+    font-weight: bold;
 }
 
 @media screen and (min-width: 700px) and (max-width: 950px){
@@ -77,9 +86,14 @@ img{
     
     .etiqueta{
         font-size: 10px;
-        transform: rotate(-30deg);
+        transform: rotate(-35deg);
         transform-origin: bottom left;
         margin-left: 3vw;
         top: 40px;
     }
+
+    .card{
+        margin-top: 1.5em !important;
+    }
 }
+
