@@ -1,0 +1,21 @@
+.fondo{
+    background: url(../../assets/escritorio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.filtro{
+    background: rgba(47, 47, 47, 0.9);
+    height: 12rem;
+    display: flex; /*filtro padre de row, sus propiedades centran el div row*/
+    align-items: center;
+}
+
+.row{
+    margin-top: -5rem;
+}
+
+hr{
+    width: 50%;
+}
