@@ -20,10 +20,6 @@ h1{
     /* font-style: italic; */
 }
 
-hr{
-    width: 100%;
-}
-
 .etiqueta{
     color: rgba(42, 3, 94, 0.486);
     font-weight: bold;

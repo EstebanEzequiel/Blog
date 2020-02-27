@@ -9,7 +9,8 @@ import {  BackendService  } from '../../backend.service'
 
 export class BackendComponent implements OnInit {
 
-  backend:any[] = []
+  backend:any[] = [];
+
   constructor( private _servicio:BackendService) 
   {
     this.backend = _servicio.obtenerBack();

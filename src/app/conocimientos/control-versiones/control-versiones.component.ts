@@ -9,7 +9,8 @@ import { ControlVersionesService } from '../../control-versiones.service'
 
 export class ControlVersionesComponent implements OnInit {
 
-  versiones:any[] = []
+  versiones:any[] = [];
+
   constructor(private _servicio:ControlVersionesService) 
   { 
     this.versiones = _servicio.obtenerVersiones();

@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Nunito';
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
+.list-group{
+    border-radius: 5px;
+}
+
+.list-group-item:hover{
+    background-color: darkgrey !important;
+}

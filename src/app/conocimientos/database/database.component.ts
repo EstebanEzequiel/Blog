@@ -9,7 +9,8 @@ import { DatabaseService } from '../../database.service'
 
 export class DatabaseComponent implements OnInit {
 
-  database:any[] = []
+  database:any[] = [];
+
   constructor(private _servicio:DatabaseService) 
   {
     this.database = _servicio.obtenerData();
