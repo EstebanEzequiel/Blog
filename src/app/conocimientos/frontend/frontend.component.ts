@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FrontendService } from '../../frontend.service'
+import { FrontendService } from '../../conocimientos/frontend/frontend.service'
 
 @Component({
   selector: 'app-frontend',

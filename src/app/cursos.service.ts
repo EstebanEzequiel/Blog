@@ -8,7 +8,8 @@ export class CursosService {
   cursos:any [] = [
 
     {
-      curso:'java nivel inicial',
+      indice:'0',
+      curso:'java inicial',
       instituto:'academia cisco-oracle',
       localidad:'utn cordoba',
       duracion:'4 meses',
@@ -16,7 +17,8 @@ export class CursosService {
       final:'diciembre 2015',
     },
     {
-      curso:'tecnico en computadoras',
+      indice:'1',
+      curso:'tecnico de pc',
       instituto:'AES computacion',
       localidad:'barrio centro',
       duracion:'4 meses',
@@ -24,6 +26,7 @@ export class CursosService {
       final:'julio 2010',
     },
     {
+      indice:'2',
       curso:'asistente pyme',
       instituto:'AES computacion',
       localidad:'barrio centro',
@@ -32,6 +35,7 @@ export class CursosService {
       final:'diciembre 2008',
     },
     {
+      indice:'3',
       curso:'operador de pc',
       instituto:'CEA informatica',
       localidad:'villa allende',

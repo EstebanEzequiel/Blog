@@ -20,23 +20,20 @@
 }
 
 .card{
-    /* box-shadow: 5px 5px 7px #888888;
-    -moz-box-shadow: 5px 5px 7px #888888;
-    -webkit-box-shadow: 5px 5px 7px #888888; */
     border: none;
-    /* transform: scale(1,1);
+    transform: scale(1,1);
     transition-timing-function: ease-out;
-    transition-duration: 250ms; */
+    transition-duration: 250ms;
 }
 
-/* .card:hover{
+.card:hover{
+    
+    box-shadow: 5px 1px 15px black;
+    -moz-box-shadow: 5px 1px 15px black;
+    -webkit-box-shadow: 5px 1px 15px black;
     transform: scale(1.05,1.05);
     transition-timing-function: ease-out;
     transition-duration: 250ms;
-} */
-
-img{
-    border-radius: 4px;
 }
 
 h5{

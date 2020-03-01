@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DatabaseService } from '../../database.service'
+import { DatabaseService } from '../../conocimientos/database/database.service'
 
 @Component({
   selector: 'app-database',

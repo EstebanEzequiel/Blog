@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OSService } from '../../os.service'
+import { OSService } from '../../conocimientos/os/os.service'
 
 @Component({
   selector: 'app-os',

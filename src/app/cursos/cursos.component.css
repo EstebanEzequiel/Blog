@@ -5,9 +5,20 @@ h1{
 }
 
 .list-group{
-    border-radius: 5px;
+    border:none !important
 }
 
 .list-group-item:hover{
     background-color: darkgrey !important;
+}
+
+.modal-body{
+    border: none;
+}
+
+.modal-header{
+    border: none;
+}
+.modal-footer{
+    border: none;
 }

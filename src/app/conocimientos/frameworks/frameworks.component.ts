@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FrameworksService } from '../../frameworks.service'
+import { FrameworksService } from '../../conocimientos/frameworks/frameworks.service'
 
 @Component({
   selector: 'app-frameworks',

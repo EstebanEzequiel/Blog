@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ControlVersionesService } from '../../control-versiones.service'
+import { ControlVersionesService } from '../../conocimientos/control-versiones/control-versiones.service'
 
 @Component({
   selector: 'app-control-versiones',
