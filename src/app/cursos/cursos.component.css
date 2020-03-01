@@ -1,15 +1,6 @@
-h1{
-    font-family: 'Nunito';
+h1, h2{
     font-weight: bold;
-    /* font-style: italic; */
-}
-
-.list-group{
-    border:none !important
-}
-
-.list-group-item:hover{
-    background-color: darkgrey !important;
+    font-family: 'Titillium Web';
 }
 
 .modal-body{
@@ -20,5 +11,17 @@ h1{
     border: none;
 }
 .modal-footer{
+    border: none;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+button{
+    border: 1px solid orange;
+}
+
+button:hover {
     border: none;
 }

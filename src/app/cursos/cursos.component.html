@@ -1,21 +1,14 @@
 <div class="d-flex justify-content-center">
-    <h1 class="text-white-50 my-5 text-capitalize">cursos realizados</h1>
+    <h1 class="text-white-50 text-capitalize text-center">cursos</h1>
 </div>
 <div class="container-sm">
-    <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4 text-justify">
-            <div class="list-group">
-                <button id="boton" type="button" class="btn btn-secondary bg-dark list-group-item list-group-item-action" data-toggle="modal" data-target="#exampleModalCenter1" *ngFor="let item of cursos;let indice = index" (click)="click(indice)">
-                    <h2 class="text-capitalize text-white-50">
-                        <i class="fas fa-check text-success pr-3"></i>
-                        {{item.curso}}
-                    </h2>
-                </button>
-            </div>
-        </div>
-        <div class="col-sm-4"></div>
-    </div>
+  <button id="boton" type="button" class="w-25 btn btn-secondary bg-dark btn-sm" data-toggle="modal" data-target="#exampleModalCenter1" 
+  *ngFor="let item of cursos;let indice = index" (click)="click(indice)">
+      <h3 class="text-capitalize text-white-50 float-left mx-2">
+                <i class="fas fa-check text-success font-smaller"></i>
+                {{item.curso}}
+      </h3>
+  </button>
 </div>
 
   <!-- Modal -->
@@ -24,9 +17,6 @@
       <div class="modal-content bg-dark text-white-50">
         <div class="modal-header">
           <h5 class="modal-title text-warning text-capitalize" id="titulo"></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
         </div>
         <div class="modal-body mx-4" id="body"></div>
         <div class="modal-footer">

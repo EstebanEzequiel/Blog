@@ -1,16 +1,13 @@
 cite{
     color: orange !important;
-    font-family: 'Space Mono' !important;
-    font-size: small;
-    font-style: normal;
+    font-family: 'Titillium Web';
 }
 
 h4{
     font-weight: bold;
-    font-family: 'Nunito';
+    font-family: 'Titillium Web';
 }
 
-p{
-    font-family: 'Space Mono';
-    font-size: small;
+p, li {
+    font-family: 'Titillium Web';
 }

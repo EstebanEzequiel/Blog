@@ -1,3 +1,7 @@
+*{
+    font-family: 'Titillium Web';
+}
+
 .container{
     position: relative;
 }
@@ -7,15 +11,10 @@
     text-transform: capitalize;
     background: orange;
     padding: 0.5em 1em;
-    margin-left: -18px;
+    margin-left: -15px;
     position: absolute;
-    top: 18%;
+    top: 12%;
     left: 0;
-    box-shadow: 1px 2px 5px #343a40;
-    -moz-box-shadow: 1px 2px 5px #343a40;
-    -webkit-box-shadow: 1px 2px 5px #343a40;
-    transform: rotate(-30deg);
-    transform-origin: bottom left;
     z-index: 1;
 }
 
@@ -37,7 +36,6 @@
 }
 
 h5{
-    font-family: 'Nunito';
     font-weight: bold;
 }
 
@@ -78,8 +76,6 @@ h5{
     
     .etiqueta{
         font-size: 10px;
-        transform: rotate(-35deg);
-        transform-origin: bottom left;
         margin-left: 3vw;
         top: 40px;
     }

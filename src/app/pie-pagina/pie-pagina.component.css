@@ -7,7 +7,7 @@
 
 .filtro{
     background: rgba(47, 47, 47, 0.7);
-    height: 10rem;
+    height: 15rem;
     display: flex;
     align-items: center;
 }
@@ -19,7 +19,8 @@ a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Space Mono';
+    font-family: 'Titillium Web';
     font-size: small
 }
 /* alinear iconos a:link en una lista */
+
