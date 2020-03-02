@@ -1,11 +1,11 @@
 <div class="container">
-  <h5 class="etiqueta text-dark">Formacion Academica<span class="forma"></span></h5>
+  <h4 class="etiqueta text-dark text-uppercase">Formacion Academica<span class="forma"></span><span class="forma1"></span></h4>
   <div class="card-columns">
     <div class="card mt-5  mb-5 bg-dark text-white" style="max-width: 540px;" *ngFor='let item of estudios'>
       <img src="{{item.foto}}" class="img-fluid" height="auto" width="355em" alt="">
           <div class="card-body">
             <p class="card-text text-justify">{{item.contenido}}</p>
-            <p class="card-text text-muted">{{item.fecha}}</p>
+            <p class="card-text font-weight-bold text-white-50">{{item.fecha}}</p>
           </div>
     </div>
   </div>

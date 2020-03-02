@@ -9,33 +9,50 @@
 .etiqueta{
     font-weight: bold;
     text-transform: capitalize;
-    background: orange;
-    padding: 0.5em 1em;
+    background: darkorange;
+    padding: 0.1em 1.5em;
     margin-left: -15px;
     position: absolute;
-    top: 12%;
+    top: 11%;
     left: 0;
     z-index: 1;
 }
 
+.forma{
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-left: 35px solid white;
+    border-top: 35px solid transparent;
+    position: absolute;
+    top: 0%;
+    left: 96%;
+    transform: rotate(45deg);
+}
+
+.forma1{
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-left: 30px solid transparent;
+    border-top: 15px solid rgb(160, 88, 0);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+
 .card{
     border: none;
-    transform: scale(1,1);
+    /* transform: scale(1,1);
     transition-timing-function: ease-out;
-    transition-duration: 250ms;
+    transition-duration: 250ms; */
+    box-shadow: 6px 6px 12px black;
+    -moz-box-shadow: 6px 6px 12px black;
+    -webkit-box-shadow: 6px 6px 12px black;
 }
 
-.card:hover{
-    
-    box-shadow: 5px 1px 15px black;
-    -moz-box-shadow: 5px 1px 15px black;
-    -webkit-box-shadow: 5px 1px 15px black;
-    transform: scale(1.05,1.05);
-    transition-timing-function: ease-out;
-    transition-duration: 250ms;
-}
-
-h5{
+h4{
     font-weight: bold;
 }
 

@@ -14,14 +14,15 @@ h1, h2{
     border: none;
 }
 
-h1{
-    margin-bottom: 2rem;
-}
-
 button{
-    border: 1px solid orange;
+    box-shadow: 4px 4px 5px black;
+
 }
 
-button:hover {
-    border: none;
+.btn{
+    border: none !important;
+}
+
+.btn:visited{
+    border: none !important;
 }

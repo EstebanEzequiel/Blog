@@ -1,13 +1,13 @@
 <div class="d-flex justify-content-center">
     <h1 class="text-white-50 text-capitalize text-center">cursos</h1>
 </div>
-<div class="container-sm">
-  <button id="boton" type="button" class="w-25 btn btn-secondary bg-dark btn-sm" data-toggle="modal" data-target="#exampleModalCenter1" 
+<div class="container-sm text-center pb-4">
+  <button id="boton" type="button" class="w-1 btn btn-secondary bg-dark m-3 py-3 px-4" data-toggle="modal" data-target="#exampleModalCenter1" 
   *ngFor="let item of cursos;let indice = index" (click)="click(indice)">
-      <h3 class="text-capitalize text-white-50 float-left mx-2">
+      <h5 class="text-capitalize text-white-50 text-center">
                 <i class="fas fa-check text-success font-smaller"></i>
                 {{item.curso}}
-      </h3>
+      </h5>
   </button>
 </div>
 
