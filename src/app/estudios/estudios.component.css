@@ -39,7 +39,7 @@
     height: 0px;
     line-height: 0px;
     border-left: 30px solid transparent;
-    border-top: 15px solid rgb(148, 22, 0);
+    border-top: 15px solid #b41b00;
     position: absolute;
     top: 100%;
     left: 0;
@@ -82,7 +82,7 @@ h4{
 
     .forma1{
         border-left: 17px solid transparent;
-        border-top: 15px solid rgb(180, 27, 0);   
+        border-top: 15px solid #b41b00;   
     }
 
 }

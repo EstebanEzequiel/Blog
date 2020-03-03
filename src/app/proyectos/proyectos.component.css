@@ -1,4 +1,88 @@
-*{
+.container-sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3{
+    font-family: 'Titillium Web';
+    float: left;
+    background-color: orangered;
+    font-weight: bold;
+    position: relative;
     margin: 0;
-    padding: 0;
+    padding: 1vh;
+    padding-left: 1.5em;
+}
+
+a{
+    font-family: 'Titillium Web';
+    margin-left: 4em;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Titillium Web';
+}
+
+.punta{
+
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-left: 48px solid transparent;
+    border-top: 48px solid orangered;
+    position: absolute;
+    left: 86%;
+    top: 0%;
+    transform: rotate(45deg);
+}
+
+.cola{
+
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-left: 34px solid transparent;
+    border-top: 34px solid #343a40;
+    position: absolute;
+    left: -10%;
+    top: 16%;
+    transform: rotate(45deg);
+
+}
+
+@media screen and (max-width: 375px){    
+
+    .container-sm{
+        display: block;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .punta{
+        left: 100%;
+        top: 97%;
+        transform: rotate(135deg);
+    }
+    
+    a{
+        margin: 0;
+        margin-top: 4rem;
+    }
+    
+    .curva{
+        width: 0px;
+        height: 0px;
+        line-height: 0px;
+        border-left: 48px solid orangered;
+        border-top: 70px solid orangered;
+        position: absolute;
+        left: 100%;
+        top: 0%;
+        border-radius: 0px 30px 0px 0px;
+    }
 }

@@ -61,5 +61,5 @@ img{
 @media screen and (max-width: 375px){
     img { height: 1.5em; }
 
-    .filtro {   height: 7em;   }
+    .filtro {   height: 5em;   }
 }
