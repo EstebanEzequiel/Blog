@@ -26,7 +26,8 @@ export class CursosComponent implements OnInit {
       if(parseInt(item.indice) == parseInt(indice)){
         contenido = item;
         titulo = item.curso;
-      }else{ console.log('todo mal')}
+        break
+      }
     }
 
     document.getElementById('titulo').innerHTML = titulo;
