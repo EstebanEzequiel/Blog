@@ -26,3 +26,10 @@ button{
 .btn:visited{
     border: none !important;
 }
+
+@media screen and (max-width: 375px)
+{
+    .btn{
+        width: 80% !important;
+    }
+}

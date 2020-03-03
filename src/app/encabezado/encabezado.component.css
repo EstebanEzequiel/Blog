@@ -6,7 +6,7 @@
 }
 
 .filtro{
-    background: rgba(47, 47, 47, 0.8);
+    background: rgba(47, 47, 47, 0.6);
     height: 25rem;
     display: flex; /*filtro padre de row, sus propiedades centran el div row*/
     align-items: flex-end;
@@ -36,44 +36,12 @@ img {
     padding-bottom: 2em;
 }
 
-h4 {
+h5 {
     font-family: 'Titillium Web';
 }
 
 h1, h2{
     font-family: 'Nunito';
-}
-
-@media screen and (min-width: 425px ) and (max-width: 768px){
-
-    h1{ font-size: 35px; }
-    
-    h2 { font-size: 25px;  }
-
-    img { height: auto; right: -1rem; }
-
-    #nombre { left: 2rem; }
-
-    p {
-        font-size: 28px;
-        top: 220%;
-    }
-}
-
-@media screen and (min-width: 375px ) and (max-width: 425px){
-
-    h1{ font-size: 18px; }
-    
-    h2 { font-size: 16px;  }
-
-    h3 {  font-size:14px;  }
-
-    #nombre { left: 0.5rem;}
-
-    p {
-        font-size: 20px;
-        top: 300%;
-    }
 }
 
 @media screen and (max-width: 375px){
@@ -83,7 +51,7 @@ h1, h2{
     #texto{ padding-bottom: 0.5em; }
 
     h1 { 
-        font-size: 16px; 
+        font-size: 18px; 
         margin: 0;
         padding: 0;
     }
@@ -100,18 +68,8 @@ h1, h2{
         margin-bottom: -0.5em;
     }
 
-    h3 {
+    h5 {
         font-size: 14px;
-        font-family: 'Teko';
-        font-weight: normal;
+        font-family: initial;
     }
 }
-@media screen and (min-width: 768px ) and (max-width: 1024px){}
-
-@media screen and (min-width: 611px ) and (max-width: 768px){}
-
-@media screen and (min-width: 512px ) and (max-width: 611px){}
-
-@media screen and (min-width: 425px ) and (max-width: 512px){}
-
-@media screen and (min-width: 375px ) and (max-width: 425px){}

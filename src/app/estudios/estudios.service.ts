@@ -10,12 +10,12 @@ export class EstudiosService {
     {
       fecha:'Año 2016 a la actualidad',
       foto:'assets/utn.png',
-      contenido:'Proximo al titulo  Analista en Sistemas de informacion.'
+      contenido:'Cursando Analista en Sistemas de informacion.'
     },
     {
       fecha:'Año 2019',
       foto:'assets/mm.jpg',
-      contenido:'Certificado en Desarrollo Web con alcances en el ambito Frontend para la creacion de apps web dinámicas, bajo Angular9.'
+      contenido:'Certificado con el titulo Desarrollo Web con alcances en el ambito Frontend para la creacion de aplicaciones web dinámicas, bajo el frameworks Angular.'
     },
     {
       fecha:'Año 2003',

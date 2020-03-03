@@ -6,18 +6,16 @@
 
 .filtro{
     background: rgba(64, 179, 224, 0.521);
-    height: 6.5em;
-}
-
-.nav{
-    background-color: rgba(64, 179, 224, 0.726);
-    padding: 1vw;
-}
-
-#logo{
-    
-    display:flex;
+    height: 10em;
+    display: flex;  /* centrado de logo */
     align-items: center;
+
+}
+
+#logo{  /* centrado de logo */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-content{
@@ -63,5 +61,5 @@ img{
 @media screen and (max-width: 375px){
     img { height: 1.5em; }
 
-    .filtro {   height: 4em;   }
+    .filtro {   height: 5em;   }
 }

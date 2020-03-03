@@ -1,17 +1,19 @@
 h5{
     font-family: 'Titillium Web';
     font-weight: bold;
-    background-color: orange;
+    background-color: #0099ff;
     display: inline-block;
     text-transform: capitalize;
-    border: 1px solid orange;
     border-radius: 6px 6px 0px 0px;
     cursor:pointer;
 }
 
 h5:active{
     background-color: grey;
-    border: 1px solid grey;
+}
+
+hr{
+    background-color: #0099ff;
 }
 
 h1{
@@ -52,11 +54,49 @@ h1{
     padding: 0px !important;
 }
 
-.container{
+.main{
+    width: 100%;
     display: flex;
+}
+
+.section{
+    width: 60%;
+    float: left;
+}
+
+.aside{
+    width: 35%;    
 }
 
 @media screen and (max-width: 375px)
 {
-    h4{ text-align: center; }
+    .container{
+        display: block;
+    }
+    .main{
+        width: 100%;
+        display: block;
+    }
+
+    .section{
+        overflow: hidden;
+        width:    100%;
+        margin-bottom: 2rem;
+    }
+
+    .aside{
+        margin: 0;
+        padding: 0 !important;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    h5{ 
+        font-size: 4vw; 
+        padding: vw !important;
+    }
+
+    i{
+        margin: 1vw !important;
+    }
 }

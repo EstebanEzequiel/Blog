@@ -4,10 +4,21 @@ cite{
 }
 
 h4{
+    margin: 1rem;
     font-weight: bold;
     font-family: 'Titillium Web';
 }
 
 p, li {
     font-family: 'Titillium Web';
+}
+
+#datos{
+    margin-left: 4rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 5vw;
 }

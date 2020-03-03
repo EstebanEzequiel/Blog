@@ -6,7 +6,7 @@
 }
 
 .filtro{
-    background: rgba(47, 47, 47, 0.7);
+    background: rgba(47, 47, 47, 0.6);
     height: 15rem;
     display: flex;
     align-items: center;
@@ -23,4 +23,3 @@ a{
     font-size: small
 }
 /* alinear iconos a:link en una lista */
-

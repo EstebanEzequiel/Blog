@@ -18,6 +18,7 @@ import { ControlVersionesComponent } from './conocimientos/control-versiones/con
 import { AsideComponent } from './aside/aside.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { IdiomasComponent } from './idiomas/idiomas.component';
+import { PestagnaComponent } from './pestagna/pestagna.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { IdiomasComponent } from './idiomas/idiomas.component';
     ControlVersionesComponent,
     AsideComponent,
     ProyectosComponent,
-    IdiomasComponent
+    IdiomasComponent,
+    PestagnaComponent
   ],
   imports: [
     BrowserModule

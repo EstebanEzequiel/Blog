@@ -9,8 +9,8 @@
 .etiqueta{
     font-weight: bold;
     text-transform: capitalize;
-    background: darkorange;
-    padding: 0.1em 1.5em;
+    background: tomato;
+    padding: 0.2em 1.5em 0.2em 0.9em;
     margin-left: -15px;
     position: absolute;
     top: 11%;
@@ -35,7 +35,7 @@
     height: 0px;
     line-height: 0px;
     border-left: 30px solid transparent;
-    border-top: 15px solid rgb(160, 88, 0);
+    border-top: 15px solid rgb(148, 22, 0);
     position: absolute;
     top: 100%;
     left: 0;
@@ -47,43 +47,16 @@
     /* transform: scale(1,1);
     transition-timing-function: ease-out;
     transition-duration: 250ms; */
-    box-shadow: 6px 6px 12px black;
-    -moz-box-shadow: 6px 6px 12px black;
-    -webkit-box-shadow: 6px 6px 12px black;
+    /* box-shadow: 5px 5px 8px black;
+    -moz-box-shadow: 5px 5px 8px black;
+    -webkit-box-shadow: 5px 5px 8px black; */
 }
 
 h4{
     font-weight: bold;
 }
 
-@media screen and (min-width: 700px) and (max-width: 950px){
-    .etiqueta{
-        font-size: 18px;
-        padding: 0.5rem 1.8rem;
-        transform: rotate(-11deg);
-        transform-origin: bottom left;
-        margin-top: 0.7rem;
-    }
 
-    img{
-        height: auto;
-        max-width: 70%;
-    }   
-}
-
-@media screen and (min-width: 600px) and (max-width: 700px){
-    img{
-        height: auto;
-        max-width: 65%;
-    }   
-
-    .etiqueta{
-        font-size: 15px;
-        padding: 0.5rem 1.2rem;
-        transform: rotate(-10deg);
-        transform-origin: bottom left;
-    }
-}
 
 @media screen and (max-width: 375px){    
     img{
@@ -92,13 +65,12 @@ h4{
     }   
     
     .etiqueta{
-        font-size: 10px;
-        margin-left: 3vw;
-        top: 40px;
+        font-size: 22px;
+        margin-left: -15px;
+        top: 1%;
     }
 
     .card{
         margin-top: 1.5em !important;
     }
 }
-

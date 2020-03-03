@@ -1,0 +1,33 @@
+a{
+    position: fixed;
+    top: 85%;
+    right: 0%;
+    border-radius: 20px 0px 0px 20px;
+    outline:none !important;
+    box-shadow: 8px 8px 20px black;
+    -moz-box-shadow: 8px 8px 20px black;
+    -webkit-box-shadow: 8px 8px 20px black;
+}
+
+#numero{
+
+    display: none;
+    transition: width .5s;
+    float: right;
+}
+
+i{
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-right: 1vh !important;
+}
+
+span{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h3{
+    margin: 0 !important;
+    padding: 0 !important;
+}
