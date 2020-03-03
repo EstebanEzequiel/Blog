@@ -21,6 +21,7 @@
     display:flex;
     align-items: flex-end;
     justify-content: center;
+    padding: 0;
 }
 
 img {
@@ -33,11 +34,13 @@ img {
 
 #texto{
     text-align: right;
+    padding: 0px;
     padding-bottom: 2em;
 }
 
 h5 {
-    font-family: 'Titillium Web';
+    font-family: 'Titillium Web', !important;
+    text-align: justify;
 }
 
 h1, h2{
@@ -45,10 +48,14 @@ h1, h2{
 }
 
 @media screen and (max-width: 375px){
-
+    
     .filtro { height: 16rem;}
-
-    #texto{ padding-bottom: 0.5em; }
+    
+    #texto{ 
+        
+        padding-bottom: 0.5em; 
+        padding-left: 10px;
+    }
 
     h1 { 
         font-size: 18px; 
@@ -65,7 +72,7 @@ h1, h2{
     img { 
         height: auto; 
         width: 5em; 
-        margin-bottom: -0.5em;
+        /* margin-bottom: -0.5em; */
     }
 
     h5 {

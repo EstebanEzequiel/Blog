@@ -14,11 +14,24 @@ p, li {
 }
 
 #datos{
-    margin-left: 4rem;
+    margin-left: 11rem;
 }
 
 ul{
     margin: 0;
     padding: 0;
     padding-left: 5vw;
+}
+
+@media screen and (max-width: 375px)
+{
+    #datos{
+        margin-left: 9rem;
+    }
+    
+    ul{
+        margin: 0;
+        padding: 0;
+        padding-left: 5vw;
+    }
 }

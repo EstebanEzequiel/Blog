@@ -3,6 +3,10 @@ h1, h2{
     font-family: 'Titillium Web';
 }
 
+h5{
+    margin: 0;
+}
+
 .modal-body{
     border: none;
 }
