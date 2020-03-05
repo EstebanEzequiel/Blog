@@ -17,6 +17,20 @@ p, li {
     margin-left: 10rem;
 }
 
+#foto{ /*contenedor padre para foto, estas propiedades centran la foto*/
+
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+}
+
+img {
+    height: auto;
+    width: 10em;    
+    margin-bottom: 1em;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -24,7 +38,16 @@ ul{
 }
 
 @media screen and (max-width: 375px)
-{
+{    
+    #foto{
+        display: block;
+    }
+
+    img{
+        width: auto;
+        max-width: 100%;
+    }
+
     #datos{
         margin-left: 4rem;
     }

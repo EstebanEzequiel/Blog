@@ -609,7 +609,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /**
-     * @license Angular v9.0.2
+     * @license Angular v9.0.4
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -5855,7 +5855,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             console &&
             /** @type {?} */
             console.warn) {
-              console.warn("trackBy must be a function, but received ".concat(JSON.stringify(fn), ". ") + "See https://angular.io/docs/ts/latest/api/common/index/NgFor-directive.html#!#change-propagation for more information.");
+              console.warn("trackBy must be a function, but received ".concat(JSON.stringify(fn), ". ") + "See https://angular.io/api/common/NgForOf#change-propagation for more information.");
             }
           }
 
@@ -9483,7 +9483,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.0.2');
+    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.0.4');
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/viewport_scroller.ts
@@ -9801,7 +9801,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     !*** ./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js ***!
     \******************************************************************/
 
-  /*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bp, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵivyEnabled, ɵlooseIdentical, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcomponentHostSyntheticListener, ɵɵcontainer, ɵɵcontainerRefreshEnd, ɵɵcontainerRefreshStart, ɵɵcontentQuery, ɵɵdefaultStyleSanitizer, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵembeddedViewEnd, ɵɵembeddedViewStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetFactoryOf, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵselect, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstaticContentQuery, ɵɵstaticViewQuery, ɵɵstyleMap, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵstyleSanitizer, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵupdateSyntheticHostBinding, ɵɵviewQuery */
+  /*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bp, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵivyEnabled, ɵlooseIdentical, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcomponentHostSyntheticListener, ɵɵcontainer, ɵɵcontainerRefreshEnd, ɵɵcontainerRefreshStart, ɵɵcontentQuery, ɵɵdefaultStyleSanitizer, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵembeddedViewEnd, ɵɵembeddedViewStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetFactoryOf, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵselect, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstaticContentQuery, ɵɵstaticViewQuery, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵstyleSanitizer, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵupdateSyntheticHostBinding, ɵɵviewQuery */
 
   /***/
   function node_modulesAngularCore__ivy_ngcc__Fesm2015CoreJs(module, __webpack_exports__, __webpack_require__) {
@@ -12175,6 +12175,60 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony export (binding) */
 
 
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate1", function () {
+      return ɵɵstyleMapInterpolate1;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate2", function () {
+      return ɵɵstyleMapInterpolate2;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate3", function () {
+      return ɵɵstyleMapInterpolate3;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate4", function () {
+      return ɵɵstyleMapInterpolate4;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate5", function () {
+      return ɵɵstyleMapInterpolate5;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate6", function () {
+      return ɵɵstyleMapInterpolate6;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate7", function () {
+      return ɵɵstyleMapInterpolate7;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolate8", function () {
+      return ɵɵstyleMapInterpolate8;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵɵstyleMapInterpolateV", function () {
+      return ɵɵstyleMapInterpolateV;
+    });
+    /* harmony export (binding) */
+
+
     __webpack_require__.d(__webpack_exports__, "ɵɵstyleProp", function () {
       return ɵɵstyleProp;
     });
@@ -12341,7 +12395,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! rxjs/operators */
     "./node_modules/rxjs/_esm2015/operators/index.js");
     /**
-     * @license Angular v9.0.2
+     * @license Angular v9.0.4
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -32210,7 +32264,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var factory = undefined;
 
       if (isTypeProvider(provider)) {
-        return injectableDefOrInjectorDefFactory(resolveForwardRef(provider));
+        /** @type {?} */
+        var unwrappedProvider = resolveForwardRef(provider);
+        return getFactoryDef(unwrappedProvider) || injectableDefOrInjectorDefFactory(unwrappedProvider);
       } else {
         if (isValueProvider(provider)) {
           factory =
@@ -32255,7 +32311,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               return _construct(classRef, _toConsumableArray(injectArgs(provider.deps)));
             };
           } else {
-            return injectableDefOrInjectorDefFactory(classRef);
+            return getFactoryDef(classRef) || injectableDefOrInjectorDefFactory(classRef);
           }
         }
       }
@@ -36220,9 +36276,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ɵɵattributeInterpolate8;
     }
     /**
-     * Update an interpolated attribute on an element with 8 or more bound values surrounded by text.
+     * Update an interpolated attribute on an element with 9 or more bound values surrounded by text.
      *
-     * Used when the number of interpolated values exceeds 7.
+     * Used when the number of interpolated values exceeds 8.
      *
      * ```html
      * <div
@@ -36239,7 +36295,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      *
      * \@codeGenApi
      * @param {?} attrName The name of the attribute to update.
-     * @param {?} values The a collection of values and the strings in-between those values, beginning with
+     * @param {?} values The collection of values and the strings in-between those values, beginning with
      * a string prefix and ending with a string suffix.
      * (e.g. `['prefix', value0, '-', value1, '-', value2, ..., value99, 'suffix']`)
      * @param {?=} sanitizer An optional sanitizer function
@@ -38535,9 +38591,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ɵɵpropertyInterpolate8;
     }
     /**
-     * Update an interpolated property on an element with 8 or more bound values surrounded by text.
+     * Update an interpolated property on an element with 9 or more bound values surrounded by text.
      *
-     * Used when the number of interpolated values exceeds 7.
+     * Used when the number of interpolated values exceeds 8.
      *
      * ```html
      * <div
@@ -38558,7 +38614,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      *
      * \@codeGenApi
      * @param {?} propName The name of the property to update.
-     * @param {?} values The a collection of values and the strings inbetween those values, beginning with a
+     * @param {?} values The collection of values and the strings inbetween those values, beginning with a
      * string prefix and ending with a string suffix.
      * (e.g. `['prefix', value0, '-', value1, '-', value2, ..., value99, 'suffix']`)
      * @param {?=} sanitizer An optional sanitizer function
@@ -40235,21 +40291,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var styleKeyValueArray =
       /** @type {?} */
       [];
+      /** @type {?} */
 
-      if (Array.isArray(value)) {
-        for (var i = 0; i < value.length; i++) {
-          keyValueArraySet(styleKeyValueArray, value[i], true);
+      var unwrappedValue =
+      /** @type {?} */
+      unwrapSafeValue(value);
+
+      if (Array.isArray(unwrappedValue)) {
+        for (var i = 0; i < unwrappedValue.length; i++) {
+          keyValueArraySet(styleKeyValueArray, unwrappedValue[i], true);
         }
-      } else if (typeof value === 'object') {
-        for (var key in value) {
-          if (value.hasOwnProperty(key)) {
-            keyValueArraySet(styleKeyValueArray, key, value[key]);
+      } else if (typeof unwrappedValue === 'object') {
+        for (var key in unwrappedValue) {
+          if (unwrappedValue.hasOwnProperty(key)) {
+            keyValueArraySet(styleKeyValueArray, key, unwrappedValue[key]);
           }
         }
-      } else if (typeof value === 'string') {
-        stringParser(styleKeyValueArray, value);
+      } else if (typeof unwrappedValue === 'string') {
+        stringParser(styleKeyValueArray, unwrappedValue);
       } else {
-        ngDevMode && throwError('Unsupported styling type ' + typeof value + ': ' + value);
+        ngDevMode && throwError('Unsupported styling type ' + typeof unwrappedValue + ': ' + unwrappedValue);
       }
 
       return styleKeyValueArray;
@@ -41081,7 +41142,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * ```
      * .
      * \@codeGenApi
-     * @param {?} values The a collection of values and the strings in between those values, beginning with
+     * @param {?} values The collection of values and the strings in between those values, beginning with
      * a string prefix and ending with a string suffix.
      * (e.g. `['prefix', value0, '-', value1, '-', value2, ..., value99, 'suffix']`)
      *
@@ -41429,9 +41490,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       checkStylingMap(keyValueArraySet, classStringParser, interpolatedValue, true);
     }
     /**
-     * Update an interpolated class on an element with 8 or more bound values surrounded by text.
+     * Update an interpolated class on an element with 9 or more bound values surrounded by text.
      *
-     * Used when the number of interpolated values exceeds 7.
+     * Used when the number of interpolated values exceeds 8.
      *
      * ```html
      * <div
@@ -41447,7 +41508,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * ```
      * .
      * \@codeGenApi
-     * @param {?} values The a collection of values and the strings in-between those values, beginning with
+     * @param {?} values The collection of values and the strings in-between those values, beginning with
      * a string prefix and ending with a string suffix.
      * (e.g. `['prefix', value0, '-', value1, '-', value2, ..., value99, 'suffix']`)
      * @return {?}
@@ -41461,6 +41522,371 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       var interpolatedValue = interpolationV(lView, values);
       checkStylingMap(keyValueArraySet, classStringParser, interpolatedValue, true);
+    }
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/core/src/render3/instructions/style_map_interpolation.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     *
+     * Update an interpolated style on an element with single bound value surrounded by text.
+     *
+     * Used when the value passed to a property has 1 interpolated value in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate1('key: ', v0, 'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate1(prefix, v0, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation1(lView, prefix, v0, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     *
+     * Update an interpolated style on an element with 2 bound values surrounded by text.
+     *
+     * Used when the value passed to a property has 2 interpolated values in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}; key1: {{v1}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate2('key: ', v0, '; key1: ', v1, 'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} i0 Static value used for concatenation only.
+     * @param {?} v1 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate2(prefix, v0, i0, v1, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation2(lView, prefix, v0, i0, v1, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     *
+     * Update an interpolated style on an element with 3 bound values surrounded by text.
+     *
+     * Used when the value passed to a property has 3 interpolated values in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}; key2: {{v1}}; key2: {{v2}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate3(
+     *     'key: ', v0, '; key1: ', v1, '; key2: ', v2, 'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} i0 Static value used for concatenation only.
+     * @param {?} v1 Value checked for change.
+     * @param {?} i1 Static value used for concatenation only.
+     * @param {?} v2 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate3(prefix, v0, i0, v1, i1, v2, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation3(lView, prefix, v0, i0, v1, i1, v2, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     *
+     * Update an interpolated style on an element with 4 bound values surrounded by text.
+     *
+     * Used when the value passed to a property has 4 interpolated values in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}; key1: {{v1}}; key2: {{v2}}; key3: {{v3}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate4(
+     *     'key: ', v0, '; key1: ', v1, '; key2: ', v2, '; key3: ', v3, 'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} i0 Static value used for concatenation only.
+     * @param {?} v1 Value checked for change.
+     * @param {?} i1 Static value used for concatenation only.
+     * @param {?} v2 Value checked for change.
+     * @param {?} i2 Static value used for concatenation only.
+     * @param {?} v3 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate4(prefix, v0, i0, v1, i1, v2, i2, v3, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation4(lView, prefix, v0, i0, v1, i1, v2, i2, v3, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     *
+     * Update an interpolated style on an element with 5 bound values surrounded by text.
+     *
+     * Used when the value passed to a property has 5 interpolated values in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}; key1: {{v1}}; key2: {{v2}}; key3: {{v3}}; key4: {{v4}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate5(
+     *     'key: ', v0, '; key1: ', v1, '; key2: ', v2, '; key3: ', v3, '; key4: ', v4, 'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} i0 Static value used for concatenation only.
+     * @param {?} v1 Value checked for change.
+     * @param {?} i1 Static value used for concatenation only.
+     * @param {?} v2 Value checked for change.
+     * @param {?} i2 Static value used for concatenation only.
+     * @param {?} v3 Value checked for change.
+     * @param {?} i3 Static value used for concatenation only.
+     * @param {?} v4 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate5(prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation5(lView, prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     *
+     * Update an interpolated style on an element with 6 bound values surrounded by text.
+     *
+     * Used when the value passed to a property has 6 interpolated values in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}; key1: {{v1}}; key2: {{v2}}; key3: {{v3}}; key4: {{v4}};
+     *             key5: {{v5}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate6(
+     *    'key: ', v0, '; key1: ', v1, '; key2: ', v2, '; key3: ', v3, '; key4: ', v4, '; key5: ', v5,
+     *    'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} i0 Static value used for concatenation only.
+     * @param {?} v1 Value checked for change.
+     * @param {?} i1 Static value used for concatenation only.
+     * @param {?} v2 Value checked for change.
+     * @param {?} i2 Static value used for concatenation only.
+     * @param {?} v3 Value checked for change.
+     * @param {?} i3 Static value used for concatenation only.
+     * @param {?} v4 Value checked for change.
+     * @param {?} i4 Static value used for concatenation only.
+     * @param {?} v5 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate6(prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, i4, v5, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation6(lView, prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, i4, v5, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     *
+     * Update an interpolated style on an element with 7 bound values surrounded by text.
+     *
+     * Used when the value passed to a property has 7 interpolated values in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}; key1: {{v1}}; key2: {{v2}}; key3: {{v3}}; key4: {{v4}}; key5: {{v5}};
+     *             key6: {{v6}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate7(
+     *    'key: ', v0, '; key1: ', v1, '; key2: ', v2, '; key3: ', v3, '; key4: ', v4, '; key5: ', v5,
+     *    '; key6: ', v6, 'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} i0 Static value used for concatenation only.
+     * @param {?} v1 Value checked for change.
+     * @param {?} i1 Static value used for concatenation only.
+     * @param {?} v2 Value checked for change.
+     * @param {?} i2 Static value used for concatenation only.
+     * @param {?} v3 Value checked for change.
+     * @param {?} i3 Static value used for concatenation only.
+     * @param {?} v4 Value checked for change.
+     * @param {?} i4 Static value used for concatenation only.
+     * @param {?} v5 Value checked for change.
+     * @param {?} i5 Static value used for concatenation only.
+     * @param {?} v6 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate7(prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, i4, v5, i5, v6, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation7(lView, prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, i4, v5, i5, v6, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     *
+     * Update an interpolated style on an element with 8 bound values surrounded by text.
+     *
+     * Used when the value passed to a property has 8 interpolated values in it:
+     *
+     * ```html
+     * <div style="key: {{v0}}; key1: {{v1}}; key2: {{v2}}; key3: {{v3}}; key4: {{v4}}; key5: {{v5}};
+     *             key6: {{v6}}; key7: {{v7}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolate8(
+     *    'key: ', v0, '; key1: ', v1, '; key2: ', v2, '; key3: ', v3, '; key4: ', v4, '; key5: ', v5,
+     *    '; key6: ', v6, '; key7: ', v7, 'suffix');
+     * ```
+     *
+     * \@codeGenApi
+     * @param {?} prefix Static value used for concatenation only.
+     * @param {?} v0 Value checked for change.
+     * @param {?} i0 Static value used for concatenation only.
+     * @param {?} v1 Value checked for change.
+     * @param {?} i1 Static value used for concatenation only.
+     * @param {?} v2 Value checked for change.
+     * @param {?} i2 Static value used for concatenation only.
+     * @param {?} v3 Value checked for change.
+     * @param {?} i3 Static value used for concatenation only.
+     * @param {?} v4 Value checked for change.
+     * @param {?} i4 Static value used for concatenation only.
+     * @param {?} v5 Value checked for change.
+     * @param {?} i5 Static value used for concatenation only.
+     * @param {?} v6 Value checked for change.
+     * @param {?} i6 Static value used for concatenation only.
+     * @param {?} v7 Value checked for change.
+     * @param {?} suffix Static value used for concatenation only.
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolate8(prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, i4, v5, i5, v6, i6, v7, suffix) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolation8(lView, prefix, v0, i0, v1, i1, v2, i2, v3, i3, v4, i4, v5, i5, v6, i6, v7, suffix);
+      ɵɵstyleMap(interpolatedValue);
+    }
+    /**
+     * Update an interpolated style on an element with 9 or more bound values surrounded by text.
+     *
+     * Used when the number of interpolated values exceeds 8.
+     *
+     * ```html
+     * <div
+     *  class="key: {{v0}}; key1: {{v1}}; key2: {{v2}}; key3: {{v3}}; key4: {{v4}}; key5: {{v5}};
+     *         key6: {{v6}}; key7: {{v7}}; key8: {{v8}}; key9: {{v9}}suffix"></div>
+     * ```
+     *
+     * Its compiled representation is:
+     *
+     * ```ts
+     * ɵɵstyleMapInterpolateV(
+     *    ['key: ', v0, '; key1: ', v1, '; key2: ', v2, '; key3: ', v3, '; key4: ', v4, '; key5: ', v5,
+     *     '; key6: ', v6, '; key7: ', v7, '; key8: ', v8, '; key9: ', v9, 'suffix']);
+     * ```
+     * .
+     * \@codeGenApi
+     * @param {?} values The collection of values and the strings in-between those values, beginning with
+     * a string prefix and ending with a string suffix.
+     * (e.g. `['prefix', value0, '; key2: ', value1, '; key2: ', value2, ..., value99, 'suffix']`)
+     * @return {?}
+     */
+
+
+    function ɵɵstyleMapInterpolateV(values) {
+      /** @type {?} */
+      var lView = getLView();
+      /** @type {?} */
+
+      var interpolatedValue = interpolationV(lView, values);
+      ɵɵstyleMap(interpolatedValue);
     }
     /**
      * @fileoverview added by tsickle
@@ -41807,10 +42233,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ɵɵstylePropInterpolate8;
     }
     /**
-     * Update an interpolated style property on an element with 8 or more bound values surrounded by
+     * Update an interpolated style property on an element with 9 or more bound values surrounded by
      * text.
      *
-     * Used when the number of interpolated values exceeds 7.
+     * Used when the number of interpolated values exceeds 8.
      *
      * ```html
      * <div
@@ -41828,7 +42254,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      *
      * \@codeGenApi
      * @param {?} prop
-     * @param {?} values The a collection of values and the strings in-between those values, beginning with
+     * @param {?} values The collection of values and the strings in-between those values, beginning with
      * a string prefix and ending with a string suffix.
      * (e.g. `['prefix', value0, '-', value1, '-', value2, ..., value99, 'suffix']`)
      * @param {?=} valueSuffix Optional suffix. Used with scalar values to add unit such as `px`.
@@ -42999,8 +43425,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
             fillProperties(definition.inputs, superDef.inputs);
             fillProperties(definition.declaredInputs, superDef.declaredInputs);
-            fillProperties(definition.outputs, superDef.outputs); // Inherit hooks
+            fillProperties(definition.outputs, superDef.outputs); // Merge animations metadata.
+            // If `superDef` is a Component, the `data` field is present (defaults to an empty object).
+
+            if (isComponentDef(superDef) && superDef.data.animation) {
+              // If super def is a Component, the `definition` is also a Component, since Directives can
+              // not inherit Components (we throw an error above and cannot reach this code).
+
+              /** @type {?} */
+              var defData =
+              /** @type {?} */
+              definition.data;
+              defData.animation = (defData.animation || []).concat(superDef.data.animation);
+            } // Inherit hooks
             // Assume super class inheritance feature has already run.
+
 
             writeableDef.afterContentChecked = writeableDef.afterContentChecked || superDef.afterContentChecked;
             writeableDef.afterContentInit = definition.afterContentInit || superDef.afterContentInit;
@@ -44394,7 +44833,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var VERSION = new Version('9.0.2');
+    var VERSION = new Version('9.0.4');
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/change_detection/differs/default_iterable_differ.ts
@@ -53790,17 +54229,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     function NgModuleType() {}
 
     if (false) {}
-    /** @type {?} */
-
-
-    var COMPONENT_FACTORY_RESOLVER = {
-      provide: ComponentFactoryResolver,
-      useClass: ComponentFactoryResolver$1,
-      deps: [NgModuleRef]
-    };
     /**
      * @template T
      */
+
 
     var NgModuleRef$1 =
     /*#__PURE__*/
@@ -53821,7 +54253,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _this31._bootstrapComponents = [];
         _this31.injector = _assertThisInitialized(_this31);
-        _this31.destroyCbs = [];
+        _this31.destroyCbs = []; // When bootstrapping a module we have a dependency graph that looks like this:
+        // ApplicationRef -> ComponentFactoryResolver -> NgModuleRef. The problem is that if the
+        // module being resolved tries to inject the ComponentFactoryResolver, it'll create a
+        // circular dependency which will result in a runtime error, because the injector doesn't
+        // exist yet. We work around the issue by creating the ComponentFactoryResolver ourselves
+        // and providing it, rather than letting the injector resolve it.
+
+        _this31.componentFactoryResolver = new ComponentFactoryResolver$1(_assertThisInitialized(_this31));
         /** @type {?} */
 
         var ngModuleDef = getNgModuleDef(ngModuleType);
@@ -53829,23 +54268,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         /** @type {?} */
 
         var ngLocaleIdDef = getNgLocaleIdDef(ngModuleType);
-
-        if (ngLocaleIdDef) {
-          setLocaleId(ngLocaleIdDef);
-        }
-
+        ngLocaleIdDef && setLocaleId(ngLocaleIdDef);
         _this31._bootstrapComponents = maybeUnwrapFn(
         /** @type {?} */
         ngModuleDef.bootstrap);
-        /** @type {?} */
-
-        var additionalProviders = [{
-          provide: NgModuleRef,
-          useValue: _assertThisInitialized(_this31)
-        }, COMPONENT_FACTORY_RESOLVER];
         _this31._r3Injector =
         /** @type {?} */
-        createInjector(ngModuleType, _parent, additionalProviders, stringify(ngModuleType));
+        createInjector(ngModuleType, _parent, [{
+          provide: NgModuleRef,
+          useValue: _assertThisInitialized(_this31)
+        }, {
+          provide: ComponentFactoryResolver,
+          useValue: _this31.componentFactoryResolver
+        }], stringify(ngModuleType));
         _this31.instance = _this31.get(ngModuleType);
         return _this31;
       }
@@ -53875,10 +54310,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       }, {
         key: "destroy",
-
-        /**
-         * @return {?}
-         */
         value: function destroy() {
           ngDevMode && assertDefined(this.destroyCbs, 'NgModule already destroyed');
           /** @type {?} */
@@ -53909,11 +54340,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           /** @type {?} */
           this.destroyCbs.push(callback);
-        }
-      }, {
-        key: "componentFactoryResolver",
-        get: function get() {
-          return this.get(ComponentFactoryResolver);
         }
       }]);
 
@@ -54497,7 +54923,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var pipeFactory = pipeDef.factory || (pipeDef.factory = getFactoryDef(pipeDef.type, true));
       /** @type {?} */
 
+      var previousInjectImplementation = setInjectImplementation(ɵɵdirectiveInject);
+      /** @type {?} */
+
       var pipeInstance = pipeFactory();
+      setInjectImplementation(previousInjectImplementation);
       store(tView, getLView(), index, pipeInstance);
       return pipeInstance;
     }
@@ -56550,6 +56980,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         'ɵɵclassMapInterpolate8': ɵɵclassMapInterpolate8,
         'ɵɵclassMapInterpolateV': ɵɵclassMapInterpolateV,
         'ɵɵstyleMap': ɵɵstyleMap,
+        'ɵɵstyleMapInterpolate1': ɵɵstyleMapInterpolate1,
+        'ɵɵstyleMapInterpolate2': ɵɵstyleMapInterpolate2,
+        'ɵɵstyleMapInterpolate3': ɵɵstyleMapInterpolate3,
+        'ɵɵstyleMapInterpolate4': ɵɵstyleMapInterpolate4,
+        'ɵɵstyleMapInterpolate5': ɵɵstyleMapInterpolate5,
+        'ɵɵstyleMapInterpolate6': ɵɵstyleMapInterpolate6,
+        'ɵɵstyleMapInterpolate7': ɵɵstyleMapInterpolate7,
+        'ɵɵstyleMapInterpolate8': ɵɵstyleMapInterpolate8,
+        'ɵɵstyleMapInterpolateV': ɵɵstyleMapInterpolateV,
         'ɵɵstyleProp': ɵɵstyleProp,
         'ɵɵstylePropInterpolate1': ɵɵstylePropInterpolate1,
         'ɵɵstylePropInterpolate2': ɵɵstylePropInterpolate2,
@@ -57262,24 +57701,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /**
      * Compute the pair of transitive scopes (compilation scope and exported scope) for a given module.
      *
-     * By default this operation is memoized and the result is cached on the module's definition. You
-     * can avoid memoization and previously stored results (if available) by providing the second
-     * argument with the `true` value (forcing transitive scopes recalculation).
-     *
-     * This function can be called on modules with components that have not fully compiled yet, but the
-     * result should not be used until they have.
+     * This operation is memoized and the result is cached on the module's definition. This function can
+     * be called on modules with components that have not fully compiled yet, but the result should not
+     * be used until they have.
      *
      * @template T
      * @param {?} moduleType module that transitive scope should be calculated for.
-     * @param {?=} forceRecalc flag that indicates whether previously calculated and memoized values should
-     * be ignored and transitive scope to be fully recalculated.
      * @return {?}
      */
 
 
     function transitiveScopesFor(moduleType) {
-      var forceRecalc = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-
       if (!isNgModule(moduleType)) {
         throw new Error("".concat(moduleType.name, " does not have a module def (\u0275mod property)"));
       }
@@ -57290,7 +57722,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /** @type {?} */
       getNgModuleDef(moduleType);
 
-      if (!forceRecalc && def.transitiveCompileScopes !== null) {
+      if (def.transitiveCompileScopes !== null) {
         return def.transitiveCompileScopes;
       }
       /** @type {?} */
@@ -57347,7 +57779,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         /** @type {?} */
 
 
-        var importedScope = transitiveScopesFor(importedType, forceRecalc);
+        var importedScope = transitiveScopesFor(importedType);
         importedScope.exported.directives.forEach(
         /**
         * @param {?} entry
@@ -57383,7 +57815,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           // added to both the compilation and exported scopes of this module.
 
           /** @type {?} */
-          var exportedScope = transitiveScopesFor(exportedType, forceRecalc);
+          var exportedScope = transitiveScopesFor(exportedType);
           exportedScope.exported.directives.forEach(
           /**
           * @param {?} entry
@@ -57408,11 +57840,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           scopes.exported.directives.add(exportedType);
         }
       });
-
-      if (!forceRecalc) {
-        def.transitiveCompileScopes = scopes;
-      }
-
+      def.transitiveCompileScopes = scopes;
       return scopes;
     }
     /**
@@ -69028,7 +69456,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"];
     });
     /**
-     * @license Angular v9.0.2
+     * @license Angular v9.0.4
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -72354,6 +72782,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
+    /**
+     * @return {?}
+     */
+
+
+    function initDomAdapter() {
+      BrowserDomAdapter.makeCurrent();
+      BrowserGetTestability.init();
+    }
+    /**
+     * @return {?}
+     */
+
+
+    function errorHandler() {
+      return new _angular_core__WEBPACK_IMPORTED_MODULE_1__["ErrorHandler"]();
+    }
+    /**
+     * @return {?}
+     */
+
+
+    function _document() {
+      // Tell ivy about the global document
+      Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetDocument"])(document);
+      return document;
+    }
 
     var ɵ0$4 = _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵPLATFORM_BROWSER_ID"];
     /** @type {?} */
@@ -72398,34 +72853,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
     var platformBrowser = Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["createPlatformFactory"])(_angular_core__WEBPACK_IMPORTED_MODULE_1__["platformCore"], 'browser', INTERNAL_BROWSER_PLATFORM_PROVIDERS);
-    /**
-     * @return {?}
-     */
-
-    function initDomAdapter() {
-      BrowserDomAdapter.makeCurrent();
-      BrowserGetTestability.init();
-    }
-    /**
-     * @return {?}
-     */
-
-
-    function errorHandler() {
-      return new _angular_core__WEBPACK_IMPORTED_MODULE_1__["ErrorHandler"]();
-    }
-    /**
-     * @return {?}
-     */
-
-
-    function _document() {
-      // Tell ivy about the global document
-      Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetDocument"])(document);
-      return document;
-    }
     /** @type {?} */
-
 
     var BROWSER_MODULE_PROVIDERS = [BROWSER_SANITIZATION_PROVIDERS, {
       provide: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵINJECTOR_SCOPE"],
@@ -73572,7 +74000,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('9.0.2');
+    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('9.0.4');
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/src/platform-browser.ts
