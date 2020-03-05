@@ -1,14 +1,13 @@
-<div class="card-columns">
-  <div class="card mb-3" style="max-width: 540px;" *ngFor="let item of frontend">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="{{item.foto}}" class="card-img">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <p class="card-text"><small class="text-muted">{{item.tecnologia}} {{item.porcentaje}}%</small></p>
+<div class="contenedor">
+  <div class="row row-cols-2">
+    <div class="col-md-3" *ngFor="let item of frontend">
+      <div class="tarjeta text-white">
+        <img src="{{item.foto}}" class="img-tarjeta">
+        <div class="body-tarjeta">
+          <h6 class="titulo">{{item.titulo}}</h6>
+          <p class="texto">{{item.tecnologia}} {{item.porcentaje}}%</p>
+          <progress max="100" value="{{item.porcentaje}}"></progress>
         </div>
-        <progress max="100" value="{{item.porcentaje}}"></progress>
       </div>
     </div>
   </div>
