@@ -13,10 +13,6 @@ p, li {
     font-family: 'Titillium Web';
 }
 
-#datos{
-    margin-left: 10rem;
-}
-
 #foto{ /*contenedor padre para foto, estas propiedades centran la foto*/
 
     display:flex;
@@ -28,13 +24,10 @@ p, li {
 img {
     height: auto;
     width: 10em;    
-    margin-bottom: 1em;
 }
 
 ul{
-    margin: 0;
-    padding: 0;
-    padding-left: 5vw;
+    padding: 0 !important;
 }
 
 @media screen and (max-width: 375px)

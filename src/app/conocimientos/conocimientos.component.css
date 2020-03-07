@@ -4,7 +4,7 @@ h5{
     background-color: #0099ff;
     display: inline-block;
     text-transform: capitalize;
-    border-radius: 6px 6px 0px 0px;
+    border-radius: 0px 6px 0px 0px;
     cursor:pointer;
 }
 
@@ -19,6 +19,12 @@ hr{
 h1{
     font-weight: bold;
     font-family: 'Titillium Web';
+}
+
+.carpeta{
+    background-color: #0099ff;
+    color: #0099ff;
+    border-radius: 0px 25px 0px 0px ;
 }
 
 .etiqueta{
@@ -61,12 +67,13 @@ h1{
 }
 
 .section{
+    margin: auto;
     width: 60%;
     float: left;
 }
 
 .aside{
-    width: 35%;    
+    width: 30%;    
     margin-left: 55px;
 }
 

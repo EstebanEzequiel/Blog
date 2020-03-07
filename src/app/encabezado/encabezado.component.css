@@ -25,6 +25,7 @@
 }
 
 h5 {
+    font-size: 1.5rem;
     font-family: 'Titillium Web', !important;
     text-align: justify;
 }
@@ -32,10 +33,11 @@ h5 {
 h1{
     font-family: 'Nunito';
     color: turquoise;
+    text-align: center;
 }
 
 h2{
-
+    text-align: center;
 }
 
 @media screen and (max-width: 375px){

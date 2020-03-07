@@ -6,7 +6,7 @@
 
 .filtro{
     background: rgba(64, 179, 224, 0.521);
-    height: 12em;
+    height: 6em;
     display: flex;  /* centrado de logo */
     align-items: center;
 
@@ -61,5 +61,5 @@ img{
 @media screen and (max-width: 375px){
     img { height: 1.5em; }
 
-    .filtro {   height: 5em;   }
+    .filtro {   height: 3em;   }
 }
