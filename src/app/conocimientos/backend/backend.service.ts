@@ -8,7 +8,7 @@ export class BackendService {
   back:any[] = [
 
     {
-      foto:'assets/nodejs.jpg',
+      foto:'assets/nodejs.png',
       porcentaje:'25',
       tecnologia:'Node'
     },
@@ -19,7 +19,7 @@ export class BackendService {
     },
     {
       foto:'assets/python.png',
-      porcentaje:'40',
+      porcentaje:'50',
       tecnologia:'Python'
     }
   ]

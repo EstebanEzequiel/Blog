@@ -5,7 +5,7 @@
 }
 
 .filtro{
-    background: rgba(64, 179, 224, 0.521);
+    background: rgb(50, 58, 64,0.5);
     height: 6em;
     display: flex;  /* centrado de logo */
     align-items: center;

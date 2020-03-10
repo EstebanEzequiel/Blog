@@ -1,4 +1,4 @@
-h1, h2{
+h4, h2{
     font-weight: bold;
     font-family: 'Titillium Web';
 }
@@ -34,6 +34,6 @@ button{
 @media screen and (max-width: 375px)
 {
     .btn{
-        width: 80% !important;
+        width: 90% !important;
     }
 }

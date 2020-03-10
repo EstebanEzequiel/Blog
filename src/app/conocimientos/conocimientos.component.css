@@ -8,15 +8,7 @@ h5{
     cursor:pointer;
 }
 
-h5:active{
-    background-color: grey;
-}
-
-hr{
-    background-color: #0099ff;
-}
-
-h1{
+h4{
     font-weight: bold;
     font-family: 'Titillium Web';
 }
@@ -25,6 +17,7 @@ h1{
     background-color: #0099ff;
     color: #0099ff;
     border-radius: 0px 25px 0px 0px ;
+    margin: 0;
 }
 
 .etiqueta{
