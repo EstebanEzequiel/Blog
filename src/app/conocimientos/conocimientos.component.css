@@ -6,6 +6,7 @@ h5{
     text-transform: capitalize;
     border-radius: 0px 6px 0px 0px;
     cursor:pointer;
+    padding-bottom: 2px !important;
 }
 
 h4{

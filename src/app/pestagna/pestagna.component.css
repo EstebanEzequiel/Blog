@@ -1,12 +1,15 @@
 a{
+    padding: 12px;
+    margin: 4px;
     position: fixed;
-    top: 85%;
+    top: 50%;
     right: 0%;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 7px 0px 0px 7px;
     outline:none !important;
     box-shadow: 8px 8px 20px black;
     -moz-box-shadow: 8px 8px 20px black;
     -webkit-box-shadow: 8px 8px 20px black;
+    z-index: 1;
 }
 
 #numero{
