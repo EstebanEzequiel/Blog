@@ -64,11 +64,35 @@ h4{
     margin: auto;
     width: 60%;
     float: left;
+    background-color: #3f4850;
+    padding: 14px;
+    border-radius: 10px;
 }
 
 .aside{
-    width: 30%;    
+    width: 35%;    
     margin-left: 55px;
+}
+
+@media screen and (min-width: 375px ) and (max-width: 425px) {
+
+    .main{
+        width: 100%;
+        display: block;
+    }
+
+    .section{
+        overflow: hidden;
+        width:    100%;
+        margin-bottom: 2rem;
+    }
+
+    .aside{
+        margin: 0;
+        padding: 0 !important;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 375px)

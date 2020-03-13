@@ -58,25 +58,63 @@
 
 h4{
     font-weight: bold;
+    margin: 0;
 }
 
 .card-body{
     padding: 10px !important;
 }
 
-@media screen and (max-width: 375px){    
+@media screen and (min-width: 376px ) and (max-width: 425px){
+
+    .card{
+        text-align: center;
+        display: block;
+    }
+
     img{
-        height: auto;
-        max-width: 100%;
+        width: 90%;
     }   
-    
+
+    .card-body{
+        padding: 18px !important;
+    }
+
     .etiqueta{
         font-size: 22px;
-        margin-left: -2px;
+        margin-left: 5px;
+        top: 0.6%;
+    }
+
+    .forma{
+        top: 6%;
+    }
+
+    h4{
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width: 375px){    
+    
+    h4{
+
+        font-size: 20px !important;
+    }
+
+    img{
+        width: 97%;
+    }   
+
+    .etiqueta{
+        font-size: 22px;
+        margin-left: 2px;
         top: 0.6%;
     }
 
     .card{
+        text-align: center;
+        display: block;
         margin-top: 1.5em !important;
     }
 
@@ -85,4 +123,12 @@ h4{
         border-top: 15px solid #b41b00;   
     }
 
+    .forma{
+
+        border-left: 24px solid white;
+        border-top: 24px solid transparent;
+        top: 10%;
+        left: 96%;
+    
+    }
 }

@@ -1,3 +1,8 @@
+.container{
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
 cite{
     color: orange !important;
     font-family: 'Titillium Web';
@@ -30,24 +35,33 @@ ul{
     padding: 0 !important;
 }
 
-@media screen and (max-width: 375px)
-{    
+@media screen and (min-width: 376px ) and (max-width: 425px){
+
     #foto{
         display: block;
+        text-align: center;
     }
 
     img{
         width: auto;
-        max-width: 100%;
+        max-width: 70%;
     }
 
-    #datos{
-        margin-left: 4rem;
+    .list-group{
+        text-align: center;
     }
-    
-    ul{
-        margin: 0;
-        padding: 0;
-        padding-left: 5vw;
+}
+
+
+@media screen and (max-width: 375px)
+{    
+    #foto{
+        display: block;
+        text-align: center;
+    }
+
+    img{
+        width: auto;
+        max-width: 80%;
     }
 }

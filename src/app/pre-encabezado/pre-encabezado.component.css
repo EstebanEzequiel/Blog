@@ -5,7 +5,7 @@
 }
 
 .filtro{
-    background: rgb(50, 58, 64,0.5);
+    background: #323a4080;
     height: 6em;
     display: flex;  /* centrado de logo */
     align-items: center;
@@ -52,10 +52,10 @@ img{
     .filtro {   height: 5em;   }
 }
 
-@media screen and (min-width: 375px ) and (max-width: 425px){
+@media screen and (min-width: 376px ) and (max-width: 425px){
     img { height: 2em; }
 
-    .filtro {   height: 4.6em;   }
+    .filtro {   height: 3.5em;   }
 }
 
 @media screen and (max-width: 375px){

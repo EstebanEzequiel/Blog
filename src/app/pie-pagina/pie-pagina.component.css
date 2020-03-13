@@ -23,3 +23,10 @@ a{
     font-size: small
 }
 /* alinear iconos a:link en una lista */
+
+@media screen and (max-width: 375px){
+
+    a{
+        margin: 0 !important;
+    }
+}

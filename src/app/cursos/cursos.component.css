@@ -31,8 +31,22 @@ button{
     border: none !important;
 }
 
-@media screen and (max-width: 375px)
+@media screen and (min-width: 376px ) and (max-width: 425px){
+
+    .btn{
+        width: 90% !important;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px)
 {
+    .btn{
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 320px){
+
     .btn{
         width: 90% !important;
     }
