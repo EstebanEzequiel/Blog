@@ -6,10 +6,6 @@
     position: relative;
 }
 
-.card-columns{
-    margin-top: 15px;
-}
-
 .etiqueta{
     font-weight: bold;
     text-transform: capitalize;
@@ -76,10 +72,6 @@ h4{
         width: 90%;
     }   
 
-    .card-body{
-        padding: 18px !important;
-    }
-
     .etiqueta{
         font-size: 22px;
         margin-left: 5px;
@@ -115,7 +107,6 @@ h4{
     .card{
         text-align: center;
         display: block;
-        margin-top: 1.5em !important;
     }
 
     .forma1{

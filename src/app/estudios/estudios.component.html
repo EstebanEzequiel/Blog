@@ -1,7 +1,8 @@
 <div class="container">
   <h4 class="etiqueta text-dark text-uppercase">Formacion Academica<span class="forma"></span><span class="forma1"></span></h4>
+  <br>
   <div class="card-columns">
-    <div class="card mt-4 bg-dark text-white" style="max-width: 540px;" *ngFor='let item of estudios'>
+    <div class="card bg-dark text-white" style="max-width: 540px;" *ngFor='let item of estudios'>
       <img src="{{item.foto}}" class="img-fluid" height="auto" width="355em" alt="">
           <div class="card-body">
             <p class="card-text text-justify">{{item.contenido}}</p>

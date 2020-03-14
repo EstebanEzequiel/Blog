@@ -1,4 +1,13 @@
 .container-fluid{
-    margin: 0;
-    padding: 0;
+    
+    padding-right: 110px;
+    padding-left: 110px;
+}
+
+@media screen and (max-width: 425px)
+{
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
 }
