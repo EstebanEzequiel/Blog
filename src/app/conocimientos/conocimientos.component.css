@@ -1,3 +1,8 @@
+.container-sm{
+    padding: 0;
+    margin-top: 14px;
+}
+
 h5{
     font-family: 'Titillium Web';
     font-weight: bold;
@@ -55,7 +60,6 @@ h4{
 }
 
 .main{
-    width: 100%;
     display: flex;
     padding: 0;
 }
@@ -97,10 +101,9 @@ h4{
 
 @media screen and (max-width: 375px)
 {
-    .container-sm{ padding: 0px 15px !important;}
+    .container-sm{ padding: 0 !important;}
 
     .main{
-        width: 100%;
         display: block;
     }
 

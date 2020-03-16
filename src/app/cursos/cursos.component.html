@@ -1,16 +1,14 @@
-<div class="container-sm text-center">
-    <h4 class="text-white-50 text-capitalize m-0">
-      <i class="far fa-hand-point- fa-hand-point-right"></i> cursos
-    </h4>
-    <br>
-  <button id="boton" type="button" class="w-1 btn btn-secondary bg-dark m-2 py-3 px-3" data-toggle="modal" data-target="#exampleModalCenter1" 
-  *ngFor="let item of cursos;let indice = index" (click)="click(indice)">
-      <h6 class="text-capitalize text-white-50 text-center">
-                <i class="fas fa-check text-success font-smaller"></i>
-                {{item.curso}}
-      </h6>
-  </button>
-</div>
+  <h4 class="text-white-50 text-capitalize m-0">
+    <i class="far fa-hand-point- fa-hand-point-right"></i> cursos
+  </h4>
+  <br>
+<button id="boton" type="button" class="btn btn-secondary bg-dark py-3 px-3" data-toggle="modal" data-target="#exampleModalCenter1" 
+*ngFor="let item of cursos;let indice = index" (click)="click(indice)">
+    <h6 class="text-capitalize text-white-50 text-center">
+              <i class="fas fa-check text-success font-smaller"></i>
+              {{item.curso}}
+    </h6>
+</button>
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

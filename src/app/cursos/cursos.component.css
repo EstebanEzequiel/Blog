@@ -18,36 +18,33 @@ h6{
     border: none;
 }
 
-button{
-    box-shadow: 4px 4px 5px black;
-
-}
-
 .btn{
+    box-shadow: 4px 4px 4px black;
+    margin: 1vh;
     border: none !important;
-}
-
-.btn:visited{
-    border: none !important;
+    width: 27%;
 }
 
 @media screen and (min-width: 376px ) and (max-width: 425px){
 
     .btn{
-        width: 90% !important;
+        width: 80% !important;
+        margin: 2vw;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px)
 {
     .btn{
-        width: 90% !important;
+        width: 70% !important;
+        margin: 2vw;
     }
 }
 
 @media screen and (max-width: 320px){
 
     .btn{
-        width: 90% !important;
+        width: 70% !important;
+        margin: 2vw;
     }
 }

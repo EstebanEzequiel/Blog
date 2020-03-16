@@ -2,8 +2,11 @@
     font-family: 'Titillium Web';
 }
 
-.container{
+.container-sm{
     position: relative;
+    background-color: #3f4850;
+    padding: 15px !important;
+    border-radius: 10px;
 }
 
 .etiqueta{
@@ -13,7 +16,7 @@
     padding: 0.2em 1.5em 0.2em 0.9em;
     margin-left: -15px;
     position: absolute;
-    top: 11%;
+    top: 5%;
     left: 0;
     z-index: 1;
 }
@@ -50,6 +53,7 @@
     /* box-shadow: 5px 5px 8px black;
     -moz-box-shadow: 5px 5px 8px black;
     -webkit-box-shadow: 5px 5px 8px black; */
+    border-radius: 10px;
 }
 
 h4{
@@ -61,6 +65,8 @@ h4{
     padding: 10px !important;
 }
 
+/* --------------------------------------------------------------- */
+
 @media screen and (min-width: 376px ) and (max-width: 425px){
 
     .card{
@@ -69,21 +75,27 @@ h4{
     }
 
     img{
-        width: 90%;
+        width: 100%;
     }   
 
     .etiqueta{
         font-size: 22px;
-        margin-left: 5px;
-        top: 0.6%;
+        margin-left: 4px;
+        top: 2%;
     }
 
     .forma{
         top: 6%;
     }
 
+    .forma1{
+        border-left: 11px solid transparent;
+        border-top: 11px solid #b41b00;   
+    }
+
+
     h4{
-        font-size: 25px !important;
+        font-size: 22px !important;
     }
 }
 
@@ -95,13 +107,13 @@ h4{
     }
 
     img{
-        width: 97%;
+        width: 100%;
     }   
 
     .etiqueta{
         font-size: 22px;
         margin-left: 2px;
-        top: 0.6%;
+        top: 1.8%;
     }
 
     .card{
@@ -110,8 +122,8 @@ h4{
     }
 
     .forma1{
-        border-left: 17px solid transparent;
-        border-top: 15px solid #b41b00;   
+        border-left: 13px solid transparent;
+        border-top: 12px solid #b41b00;   
     }
 
     .forma{

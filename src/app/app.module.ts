@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
-import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ConocimientosComponent } from './conocimientos/conocimientos.component';
 import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
 import { PreEncabezadoComponent } from './pre-encabezado/pre-encabezado.component';
@@ -24,7 +23,6 @@ import { PestagnaComponent } from './pestagna/pestagna.component';
   declarations: [
     AppComponent,
     EncabezadoComponent,
-    ExperienciaComponent,
     ConocimientosComponent,
     PiePaginaComponent,
     PreEncabezadoComponent,
