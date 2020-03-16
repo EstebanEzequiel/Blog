@@ -26,7 +26,8 @@ export class EstudiosService {
 
   constructor() {}
 
-  obtenerEstudios(){
+  obtenerEstudios()
+  {
     return this.estudios;
   }
 }

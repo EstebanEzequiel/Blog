@@ -16,7 +16,6 @@ import { OSComponent } from './conocimientos/os/os.component';
 import { ControlVersionesComponent } from './conocimientos/control-versiones/control-versiones.component';
 import { AsideComponent } from './aside/aside.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
-import { IdiomasComponent } from './idiomas/idiomas.component';
 import { PestagnaComponent } from './pestagna/pestagna.component';
 
 @NgModule({
@@ -36,7 +35,6 @@ import { PestagnaComponent } from './pestagna/pestagna.component';
     ControlVersionesComponent,
     AsideComponent,
     ProyectosComponent,
-    IdiomasComponent,
     PestagnaComponent
   ],
   imports: [
