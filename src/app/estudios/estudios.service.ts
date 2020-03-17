@@ -15,7 +15,7 @@ export class EstudiosService {
     {
       fecha:'Año 2019',
       foto:'assets/mm.jpg',
-      contenido:'Certificado con el titulo Desarrollo Web con alcances en el ambito Frontend para la creacion de aplicaciones web dinámicas, bajo el frameworks Angular.'
+      contenido:'Certificado con el titulo Desarrollo Web con alcances Frontend, para la creacion de webs dinámicas, bajo el framework Angular en su version mas reciente.'
     },
     {
       fecha:'Año 2003',

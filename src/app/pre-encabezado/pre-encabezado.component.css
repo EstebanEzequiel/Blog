@@ -1,12 +1,12 @@
 .fondo{
     background: url(../../assets/cordoba.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .filtro{
-    background: #323a4080;
-    height: 6em;
+    height: 10em;
     display: flex;  /* centrado de logo */
     align-items: center;
 

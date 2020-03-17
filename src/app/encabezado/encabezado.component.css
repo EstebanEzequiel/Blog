@@ -2,12 +2,11 @@
     background: url(../../assets/escritorio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .filtro{
     background: rgba(47, 47, 47, 0.6);
-    height: 25rem;
+    height: 30rem;
     display: flex; /*filtro padre de row, sus propiedades centran el div row*/
     align-items: flex-end;
 }

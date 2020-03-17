@@ -6,7 +6,7 @@
 }
 
 .filtro{
-    background: rgba(47, 47, 47, 0.6);
+    background: #2f2f2f99;
     height: 15rem;
     display: flex;
     align-items: center;
@@ -23,6 +23,10 @@ a{
     font-size: small
 }
 /* alinear iconos a:link en una lista */
+
+.container-fluid{
+    background-color: #1d2023;
+}
 
 @media screen and (max-width: 375px){
 
