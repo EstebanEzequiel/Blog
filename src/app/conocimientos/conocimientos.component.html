@@ -1,54 +1,116 @@
-<div class="container-sm">
+<div class="container">
     <div class="main">
         <div class="section">
             <h4 class="text-white-50 mb-0 text-capitalize text-center">
                 <i class="far fa-hand-point-right"></i> mis aptitudes
             </h4>
             <br>
-            <h5 class="text-white-50 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code"></i></span>Frontend</h5>
-            <h6 class="carpeta">hola</h6>
+            
+            <div class="list-group bg-dark">
+                <div class="container-sm">
+                    <span class="display-4 text-white-50 my-2">
+                        <i class="fas fa-code mr-2" id="icon-text"></i> Frontend
+                    </span>                
+                    <button class="btn btn-dark" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-angle-down text-white-50" id="icon-btn"></i>
+                    </button>
+                </div>
+            </div>
             <div class="collapse" id="collapseExample">
-                    <br>
-                    <app-frontend></app-frontend>
-                </div>
-            <h5 class="text-white-50 mt-3 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code"></i></span>Backend</h5>
-                <h6 class="carpeta">hola</h6>
-            <div class="collapse" id="collapseExample1">
-                    <br>
-                    <app-backend></app-backend>
-                </div>
-            <h5 class="text-white-50 mt-3 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-cogs"></i></span>Frameworks</h5>
-                <h6 class="carpeta">hola</h6>
-            <div class="collapse" id="collapseExample2">
-                    <br>
-                    <app-frameworks></app-frameworks>
-                </div>
-            <h5 class="text-white-50 mt-3 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-database"></i></span>Base de Datos</h5>
-                <h6 class="carpeta">hola</h6>
-            <div class="collapse" id="collapseExample3">
-                    <br>
-                    <app-database></app-database>
-                </div>
-            <h5 class="text-white-50 mt-3 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-laptop-code"></i></span>S. Operativos</h5>
-                <h6 class="carpeta">hola</h6>
-            <div class="collapse" id="collapseExample4">
-                    <br>
-                    <app-os></app-os>
-                </div>
-            <h5 class="text-white-50 mt-3 mb-0 p-2 pr-4" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample"><span><i class="m-2 fas fa-code-branch"></i></span>C. de Versiones</h5>
-                <h6 class="carpeta">hola</h6>
-            <div class="collapse" id="collapseExample5">
-                    <br>
-                    <app-control-versiones></app-control-versiones>
+                <br>
+                <app-frontend></app-frontend>
             </div>
             <br>
-            <div class="text-center">
+
+            <div class="list-group bg-dark">
+                <div class="container-sm">
+                    <span class="display-4 text-white-50 my-2">
+                        <i class="fas fa-code mr-2" id="icon-text"></i> Backend
+                    </span>                
+                    <button class="btn btn-dark" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-angle-down text-white-50" id="icon-btn"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample1">
+                <br>
+                <app-backend></app-backend>
+            </div>
+            <br>
+
+            <div class="list-group bg-dark">
+                <div class="container-sm">
+                    <span class="display-4 text-white-50 my-2">
+                        <i class="fas fa-cogs mr-2" id="icon-text"></i> Frameworks
+                    </span>                
+                    <button class="btn btn-dark" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-angle-down text-white-50" id="icon-btn"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <br>
+                <app-frameworks></app-frameworks>
+            </div>
+            <br>
+
+            <div class="list-group bg-dark">
+                <div class="container-sm">
+                    <span class="display-4 text-white-50 my-2">
+                        <i class="fas fa-database mr-2" id="icon-text"></i> Base de Datos
+                    </span>                
+                    <button class="btn btn-dark" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-angle-down text-white-50" id="icon-btn"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <br>
+                <app-database></app-database>
+            </div>
+            <br>
+
+            <div class="list-group bg-dark">
+                <div class="container-sm">
+                    <span class="display-4 text-white-50 my-2">
+                        <i class="fas fa-laptop-code mr-2" id="icon-text"></i> Sistemas Operativos
+                    </span>                
+                    <button class="btn btn-dark" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-angle-down text-white-50" id="icon-btn"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample4">
+                <br>
+                <app-os></app-os>
+            </div>
+            <br>
+
+            <div class="list-group bg-dark">
+                <div class="container-sm">
+                    <span class="display-4 text-white-50 my-2">
+                        <i class="fas fa-code-branch mr-2" id="icon-text"></i> Control de Versiones
+                    </span>                
+                    <button class="btn btn-dark" data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                        <i class="fas fa-angle-down text-white-50" id="icon-btn"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample5">
+                <br>
+                <app-control-versiones></app-control-versiones>
+            </div>
+            <br>
+
+            <div>
                 <app-cursos></app-cursos>
             </div>
             <br>
         </div>
+
         <div class="aside">
             <app-aside></app-aside>
         </div>
+
     </div>
 </div>

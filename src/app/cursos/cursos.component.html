@@ -1,25 +1,35 @@
-  <h4 class="text-white-50 text-capitalize m-0">
-    <i class="far fa-hand-point- fa-hand-point-right"></i> mis cursos
-  </h4>
+<h4 class="text-white-50 text-capitalize m-0 text-center">
+  <i class="far fa-hand-point- fa-hand-point-right"></i> mis cursos
+</h4>
+<br>
+
+<div class="container" *ngFor="let item of cursos;let indice = index">
+  <div class="list-group bg-dark">
+    <div class="container-sm">
+      <span class="display-4 text-white-50 my-2 text-capitalize">
+        <i class="fas fa-check text-success font-smaller mr-2"></i>
+        {{item.curso}}
+      </span>                
+      <button class="btn btn-dark" data-toggle="modal" data-target=".bd-example-modal-sm" (click)="click(indice)">
+        <i class="far fa-window-restore text-white-50" id="icon-btn"></i>
+      </button>
+    </div>
+  </div>
   <br>
-<button id="boton" type="button" class="btn btn-secondary bg-dark py-3 px-3" data-toggle="modal" data-target="#exampleModalCenter1" 
-*ngFor="let item of cursos;let indice = index" (click)="click(indice)">
-    <h6 class="text-capitalize text-white-50 text-center">
-              <i class="fas fa-check text-success font-smaller"></i>
-              {{item.curso}}
-    </h6>
-</button>
+</div>
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
       <div class="modal-content bg-dark text-white-50">
         <div class="modal-header">
           <h5 class="modal-title text-warning text-capitalize" id="titulo"></h5>
         </div>
-        <div class="modal-body mx-2" id="body"></div>
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+        <div class="modal-body" id="body"></div>
+        <div class="modal-footer justify-content-end">
+          <button type="button" class="btn btn-dark m-2" data-dismiss="modal">
+            <i class="fas fa-undo-alt" id="btn-modal"></i>
+          </button>
         </div>
       </div>
     </div>

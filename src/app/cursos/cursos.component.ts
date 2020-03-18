@@ -33,10 +33,9 @@ export class CursosComponent implements OnInit {
     document.getElementById('titulo').innerHTML = titulo;
 
     document.getElementById('body').innerHTML = 
-    'Cursado en el instituto '+'<em class="text-warning text-capitalize">'+contenido.instituto+'</em>'+' con '+
-    '<em class="text-warning">'+contenido.duracion+'</em>'+ ' de duracion.' +'<br>'+
-    'Inicio: '+'<small class="text-white">'+contenido.inicio+'</small>'+
-    ' Finalizado: '+'<small class="text-white">'+contenido.final+'</small>'                                               
+    'Instituto '+'<em class="text-warning text-capitalize">'+contenido.instituto+'<br></em>'
+    +'Duracion '+'<em class="text-warning">'+contenido.duracion+'</em>'+'<br>'+
+    'Inicio: '+'<small class="text-white">'+contenido.inicio+'</small>'+'<br>'+' Finalizado: '+'<small class="text-white">'+contenido.final+'</small>'                                               
   }
 
 }

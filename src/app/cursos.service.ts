@@ -18,7 +18,7 @@ export class CursosService {
     },
     {
       indice:'1',
-      curso:'tecnico de pc',
+      curso:'tecnico PC',
       instituto:'AES computacion',
       localidad:'barrio centro',
       duracion:'4 meses',
@@ -36,8 +36,8 @@ export class CursosService {
     },
     {
       indice:'3',
-      curso:'operador de pc',
-      instituto:'CEA informatica',
+      curso:'operador PC',
+      instituto:'CEA-informatica',
       localidad:'villa allende',
       duracion:'6 meses',
       inicio:'marzo 2002',

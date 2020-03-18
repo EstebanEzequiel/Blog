@@ -1,57 +1,11 @@
-.container-sm{
+.container{
     padding: 0;
     margin-top: 14px;
-}
-
-h5{
-    font-family: 'Titillium Web';
-    font-weight: bold;
-    background-color: #0099ff;
-    display: inline-block;
-    text-transform: capitalize;
-    border-radius: 0px 6px 0px 0px;
-    cursor:pointer;
-    padding-bottom: 2px !important;
 }
 
 h4{
     font-weight: bold;
     font-family: 'Titillium Web';
-}
-
-.carpeta{
-    background-color: #0099ff;
-    color: #0099ff;
-    border-radius: 0px 25px 0px 0px ;
-    margin: 0;
-}
-
-.etiqueta{
-    color: rgba(42, 3, 94, 0.486);
-    font-weight: bold;
-    display: inline-block;
-    background: rgb(0, 195, 255);
-    padding: 0.5rem 2rem;
-    font-size: 1.5rem;
-    margin-left: -48px;
-    position: relative;
-    width: auto;
-    box-shadow: 1px 1px 6px rgb(65, 65, 65);
-    -moz-box-shadow: 1px 1px 6px rgb(65, 65, 65);
-    -webkit-box-shadow: 1px 1px 6px rgb(65, 65, 65);
-    transform: rotate(-6deg);
-    transform-origin: bottom left;
-}
-
-.forma{
-    width: 0px;
-    height: 0px;
-    line-height: 0px;
-    border-left: 26px solid transparent;
-    border-top: 8px solid rgb(0, 90, 143);
-    position: absolute;
-    top: 100%;
-    left: 0px;
 }
 
 .collapse{
@@ -78,6 +32,41 @@ h4{
     margin-left: 15px;
 }
 
+.container-sm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group{
+    border-radius: 10px;
+}
+
+#icon-text{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: auto;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 250px;
+    border: 3px solid #3f4850;
+}
+
+#icon-btn{
+    font-size: xx-large;
+    vertical-align: middle;
+    color: #3f4850 !important;
+}
+
+span{
+    display: inline-flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 375px ) and (max-width: 425px) {
 
     .main{
@@ -101,7 +90,7 @@ h4{
 
 @media screen and (max-width: 375px)
 {
-    .container-sm{ padding: 0 !important;}
+    .container{ padding: 0 !important;}
 
     .main{
         display: block;
@@ -120,12 +109,7 @@ h4{
         margin-bottom: 2rem;
     }
 
-    h5{ 
-        font-size: 4vw; 
-        padding: vw !important;
-    }
-
-    i{
-        margin: 1vw !important;
+    span{
+        font-size: 19px;
     }
 }

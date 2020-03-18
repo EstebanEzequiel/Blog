@@ -9,42 +9,76 @@ h6{
 
 .modal-body{
     border: none;
+    margin: auto;
+    padding: 0;
 }
 
 .modal-header{
     border: none;
 }
+
 .modal-footer{
+     
     border: none;
+    padding: 0;
 }
 
-.btn{
-    box-shadow: 4px 4px 4px black;
-    margin: 1vh;
-    border: none !important;
-    width: 27%;
+.container-sm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media screen and (min-width: 376px ) and (max-width: 425px){
+.list-group{
+    border-radius: 10px;
+}
 
-    .btn{
-        width: 80% !important;
-        margin: 2vw;
+#icon-text{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: auto;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 250px;
+    border: 2px solid #3f4850;
+}
+
+#icon-btn{
+    font-size: large;
+    vertical-align: middle;
+    color: #3f4850 !important;
+}
+
+span{
+    display: inline-flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#btn-modal{
+    color: #3f4850 !important;
+}
+
+@media screen and (min-width: 376px ) and (max-width: 425px)
+{
+    span{
+        font-size: 20px;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px)
 {
-    .btn{
-        width: 70% !important;
-        margin: 2vw;
+    span{
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width: 320px){
-
-    .btn{
-        width: 70% !important;
-        margin: 2vw;
-    }
+@media screen and (max-width: 320px)
+{
+        span{
+            font-size: 20px;
+        }
 }
