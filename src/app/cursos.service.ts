@@ -9,39 +9,36 @@ export class CursosService {
 
     {
       indice:'0',
+      foto:'assets/oracle_java.jpg',
       curso:'java inicial',
-      instituto:'academia cisco-oracle',
-      localidad:'utn cordoba',
-      duracion:'4 meses',
-      inicio:'agosto 2015',
+      instituto:'cisco-oracle UTN-FRC',
       final:'diciembre 2015',
+      link:'http://www.cisco.frc.utn.edu.ar/?pIs=2650'
+
     },
     {
       indice:'1',
-      curso:'tecnico PC',
-      instituto:'AES computacion',
-      localidad:'barrio centro',
-      duracion:'4 meses',
-      inicio:'marzo 2010',
-      final:'julio 2010',
+      foto:'assets/tecnico-pc.png',
+      curso:'tecnico de PC',
+      instituto:'AES',
+      final:'diciembre 2009',
+      link:'http://www.aescapacitacion.com.ar/PublicAES/ServicioTecnico.aspx'
     },
     {
       indice:'2',
-      curso:'asistente pyme',
-      instituto:'AES computacion',
-      localidad:'barrio centro',
-      duracion:'5 meses',
-      inicio:'julio 2008',
+      foto:'assets/tango.png',
+      curso:'tango gestion',
+      instituto:'AES',
       final:'diciembre 2008',
+      link:'http://www.aescapacitacion.com.ar/PublicAES/Administracion.aspx'
     },
     {
       indice:'3',
-      curso:'operador PC',
+      foto:'assets/operador-pc.jpg',
+      curso:'operador de PC',
       instituto:'CEA-informatica',
-      localidad:'villa allende',
-      duracion:'6 meses',
-      inicio:'marzo 2002',
       final:'agosto 2002',
+      link:'http://www.institutocea.com.ar/index.html'
     }
   ]
 

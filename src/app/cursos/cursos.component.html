@@ -1,36 +1,41 @@
-<h4 class="text-white-50 text-capitalize m-0 text-center">
-  <i class="far fa-hand-point- fa-hand-point-right"></i> mis cursos
-</h4>
-<br>
-
-<div class="container" *ngFor="let item of cursos;let indice = index">
-  <div class="list-group bg-dark">
-    <div class="container-sm">
-      <span class="display-4 text-white-50 my-2 text-capitalize">
-        <i class="fas fa-check text-success font-smaller mr-2"></i>
-        {{item.curso}}
+<div class="container">
+  <div class="lista">
+    <div class="contenedor d-flex justify-content-around">
+      <span class="display-4 text-white-50 my-3 text-capitalize text-center">
+        <i class="far fa-hand-point- fa-hand-point-right mr-2"></i> mis cursos
       </span>                
-      <button class="btn btn-dark" data-toggle="modal" data-target=".bd-example-modal-sm" (click)="click(indice)">
-        <i class="far fa-window-restore text-white-50" id="icon-btn"></i>
+      <button data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6" id="button-titulo">
+        <i class="fas fa-angle-down text-white-50" id="icon-btn-titulo"></i>
       </button>
     </div>
   </div>
-  <br>
+</div>
+
+<div class="collapse" id="collapseExample6">  
+  <div class="container text-center" *ngFor="let item of cursos;let indice = index">
+    <div class="lista">
+      <div class="contenedor">
+        <span class="display-4 text-white-50 my-3 text-capitalize">
+          <i class="fas fa-check text-success font-smaller mr-2"></i>{{item.curso}}
+        </span>                
+        <button class="btn btn-dark" data-toggle="modal" data-target=".bd-example-modal-sm" (click)="click(indice)">
+          <i class="far fa-window-restore text-white-50" id="icon-btn"></i>
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 
   <!-- Modal -->
   <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content bg-dark text-white-50">
         <div class="modal-header">
-          <h5 class="modal-title text-warning text-capitalize" id="titulo"></h5>
+          <div id="foto"></div>
+          <h2 class="modal-title text-warning text-capitalize text-center" id="titulo"></h2>
         </div>
         <div class="modal-body" id="body"></div>
-        <div class="modal-footer justify-content-end">
-          <button type="button" class="btn btn-dark m-2" data-dismiss="modal">
-            <i class="fas fa-undo-alt" id="btn-modal"></i>
-          </button>
-        </div>
+        <div class="modal-footer justify-content-between" id="footer"></div>
       </div>
     </div>
   </div>

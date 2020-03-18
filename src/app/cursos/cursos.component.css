@@ -15,6 +15,7 @@ h6{
 
 .modal-header{
     border: none;
+    display: block;
 }
 
 .modal-footer{
@@ -23,14 +24,18 @@ h6{
     padding: 0;
 }
 
-.container-sm{
+.contenedor{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.list-group{
+
+.lista{
+    
     border-radius: 10px;
+    max-width: 50%;
+    margin: auto;
 }
 
 #icon-text{
@@ -43,13 +48,25 @@ button{
     width: 50px;
     height: 50px;
     border-radius: 250px;
-    border: 2px solid #3f4850;
+    border: 3px solid #343a40;
+    background-color:#3f4850;
 }
 
 #icon-btn{
     font-size: large;
     vertical-align: middle;
-    color: #3f4850 !important;
+    color: #343a40 !important;
+}
+
+#icon-btn-titulo{
+    font-size: xx-large;
+}
+
+#button-titulo{
+    border: none;
+    width: 50px;
+    height: 50px;
+    outline: none;
 }
 
 span{
@@ -59,7 +76,14 @@ span{
 }
 
 #btn-modal{
-    color: #3f4850 !important;
+    background-color: #343a40;
+    border: 3px solid #222529;
+    color: #222529;
+}
+
+.modal-header{
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (min-width: 376px ) and (max-width: 425px)
@@ -78,7 +102,11 @@ span{
 
 @media screen and (max-width: 320px)
 {
-        span{
-            font-size: 20px;
-        }
+    span{
+        font-size: 20px;
+    }
+
+    .lista{
+        max-width: 100%;
+    }
 }
