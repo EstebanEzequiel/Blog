@@ -1,6 +1,10 @@
 .container-sm{
     display: flex;
     justify-content: center;
+    background-color: #3f4850;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-bottom: 15px;
 }
 
 h3{
@@ -45,9 +49,9 @@ a{
     height: 0px;
     line-height: 0px;
     border-left: 34px solid transparent;
-    border-top: 34px solid #1d2023;
+    border-top: 34px solid #3f4850;
     position: absolute;
-    left: -10%;
+    left: -8%;
     top: 16%;
     transform: rotate(45deg);
 
@@ -55,12 +59,17 @@ a{
 
 @media screen and (min-width: 375px ) and (max-width: 425px){
  
+    h5{
+        margin: 0;
+    }
+
     .container-sm{
         overflow: hidden;
         display: block;
         text-align: center;
+        margin-top: 15px;
         padding: 24px 15px !important;
-        padding-top: 0px !important;
+        padding-top: 24px !important;
     }
 
     .punta{
@@ -89,12 +98,17 @@ a{
 
 @media screen and (max-width: 375px){    
 
+    h5{
+        margin: 0;
+    }
+
     .container-sm{
         overflow: hidden;
         display: block;
         text-align: center;
+        margin-top: 15px;
         padding: 24px 15px !important;
-        padding-top: 0px !important;
+        padding-top: 24px !important;
     }
 
     .punta{

@@ -43,8 +43,6 @@ h4{
 }
 
 #icon-text{
-    display: table-cell;
-    vertical-align: middle;
     font-size: auto;
 }
 
@@ -63,11 +61,11 @@ button{
 
 span{
     display: inline-flex;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
-@media screen and (min-width: 375px ) and (max-width: 425px) {
+@media screen and (min-width: 376px ) and (max-width: 425px) {
 
     .main{
         width: 100%;
@@ -84,7 +82,10 @@ span{
         margin: 0;
         padding: 0 !important;
         width: 100%;
-        margin-bottom: 2rem;
+    }
+
+    span{
+        font-size: 16px;
     }
 }
 
@@ -106,10 +107,9 @@ span{
         margin: 0;
         padding: 0 !important;
         width: 100%;
-        margin-bottom: 2rem;
     }
 
     span{
-        font-size: 19px;
+        font-size: 16px;
     }
 }

@@ -1,34 +1,57 @@
 <div class="container" style="background-color:#3f4850 ;">
+    <br>
     <div id="foto">
-    <img src="../../assets/foto.jpg" class="card-img rounded-circle">
+        <img src="../../assets/foto.jpg" class="card-img rounded-circle">
     </div>
 
-    <h4 class="text-white-50 text-capitalize">
-        <i class="far fa-hand-point-right"></i> mi perfil
-    </h4>
-    <p class="text-white-50 text-justify m-0">
-    hola soy Ezequiel. Desde hace un año me dedico al desarrollo y programacion web Frontend bajo el framework Angular, para proyectos independientes, eligiendo antetodo la excelencia y la innovacion para una mejor experiencia del usuario. 
+    <span class="display-4 text-white-50 my-3 text-capitalize">
+        mi perfil
+    </span>
+
+    <p class="text-white-50 text-justify mb-2">
+    Desde hace un año me dedico al desarrollo y programacion web Frontend bajo el framework Angular, para proyectos independientes, eligiendo antetodo la excelencia y la innovacion en el diseño para una mejor experiencia del usuario. 
     </p>
-    <h4 class="text-white-50 text-capitalize">
-        <i class="far fa-hand-point-right"></i> mis datos personales
-    </h4>   
-    <div class="list-group text-muted">
-        <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">nacimiento: 12/11/1985</cite></li>
-        <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">nacionalidad: argentino</cite></li>
-        <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">ciudad: cordoba</cite></li>
-        <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">barrio: arguello norte</cite></li>
-        <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">estado civil: soltero</cite></li>
+
+    <div class="lista">
+        <div class="contenedor d-flex justify-content-between">
+            <span class="display-4 text-white-50 my-3 text-capitalize text-center">
+                mis datos
+            </span>                
+            <button data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample8" id="button-titulo">
+                <i class="fas fa-angle-down text-white-50" id="icon-btn-titulo"></i>
+            </button>
+        </div>
     </div>
-    <br>
-    <h4 class="text-white-50 text-capitalize">
-        <i class="far fa-hand-point-right"></i> mis actitudes
-    </h4>
-    <div class="list-group">
-        <ul class="text-white-50">
-            <li class="list-group-item bg-dark text-capitalize">autodidacta</li>
-            <li class="list-group-item bg-dark text-capitalize">tabajo en equipo</li>
-            <li class="list-group-item bg-dark text-capitalize">gestion del tiempo</li>
-            <li class="list-group-item bg-dark text-capitalize">Responsive Web Design</li>
-        </ul>
-    </div> 
+
+    <div class="collapse" id="collapseExample7">
+        <div class="list-group text-muted">
+            <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">nacimiento: 12/11/1985</cite></li>
+            <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">nacionalidad: argentino</cite></li>
+            <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">ciudad: cordoba</cite></li>
+            <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">barrio: arguello norte</cite></li>
+            <li class="list-group-item bg-dark"><cite class="text-light text-capitalize">estado civil: soltero</cite></li>
+        </div>
+    </div>      
+
+    <div class="lista">
+        <div class="contenedor d-flex justify-content-between">
+            <span class="display-4 text-white-50 my-3 text-capitalize text-center">
+                mis actitudes
+            </span>                
+            <button data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample6" id="button-titulo">
+                <i class="fas fa-angle-down text-white-50" id="icon-btn-titulo"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="collapse" id="collapseExample8">
+        <div class="list-group">
+            <ul class="text-white-50">
+                <li class="list-group-item bg-dark text-capitalize">autodidacta</li>
+                <li class="list-group-item bg-dark text-capitalize">tabajo en equipo</li>
+                <li class="list-group-item bg-dark text-capitalize">gestion del tiempo</li>
+                <li class="list-group-item bg-dark text-capitalize">Responsive Web Design</li>
+            </ul>
+        </div>
+    </div>
 </div>

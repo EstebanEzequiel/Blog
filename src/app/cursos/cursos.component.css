@@ -3,9 +3,7 @@ h4, h2{
     font-family: 'Titillium Web';
 }
 
-h6{
-    margin: 0;
-}
+h6{    margin: 0;   }
 
 .modal-body{
     border: none;
@@ -24,12 +22,19 @@ h6{
     padding: 0;
 }
 
+/* ------------------------colapso-------------------- */
+
 .contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor1{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .lista{
     
@@ -89,21 +94,29 @@ span{
 @media screen and (min-width: 376px ) and (max-width: 425px)
 {
     span{
-        font-size: 20px;
+        font-size: 24px;
+    }
+    
+    .lista{
+        max-width: 100%;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px)
 {
     span{
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    .lista{
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 320px)
 {
     span{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .lista{

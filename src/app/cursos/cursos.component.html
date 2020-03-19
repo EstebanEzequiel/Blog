@@ -1,8 +1,8 @@
 <div class="container">
   <div class="lista">
-    <div class="contenedor d-flex justify-content-around">
+    <div class="contenedor">
       <span class="display-4 text-white-50 my-3 text-capitalize text-center">
-        <i class="far fa-hand-point- fa-hand-point-right mr-2"></i> mis cursos
+        mis cursos
       </span>                
       <button data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6" id="button-titulo">
         <i class="fas fa-angle-down text-white-50" id="icon-btn-titulo"></i>
@@ -14,9 +14,9 @@
 <div class="collapse" id="collapseExample6">  
   <div class="container text-center" *ngFor="let item of cursos;let indice = index">
     <div class="lista">
-      <div class="contenedor">
+      <div class="contenedor1">
         <span class="display-4 text-white-50 my-3 text-capitalize">
-          <i class="fas fa-check text-success font-smaller mr-2"></i>{{item.curso}}
+          <i class="far fa-hand-point-right mr-2"></i>{{item.curso}}
         </span>                
         <button class="btn btn-dark" data-toggle="modal" data-target=".bd-example-modal-sm" (click)="click(indice)">
           <i class="far fa-window-restore text-white-50" id="icon-btn"></i>

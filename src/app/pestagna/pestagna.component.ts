@@ -16,7 +16,7 @@ export class PestagnaComponent implements OnInit {
 
     let x = document.getElementById("numero");
     if( x.style.display === "none"){
-      x.style.display = "block"
+      x.style.display = "inline-flex"
     }else{
       x.style.display = "none"
     }
