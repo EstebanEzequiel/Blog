@@ -1,0 +1,28 @@
+*Conflicto ocasionado por las actualizaciones de Jquery 3.5.1
+---------------------------------------------------------------------
+
+TypeError no capturado: no se puede convertir el objeto en un valor primitivo
+
+Can't convert object to primitive value(zone-evergreen:171).
+
+
+Uncaught Type Error: Cannot convert object to primitive value(zone-evergreen.js:171 )
+    at RegExp.test (<anonymous>)
+    at HTMLDivElement.<anonymous> (bootstrap.bundle.min.js:6)
+    at Function.each (jquery.min.js:2)
+    at S.fn.init.each (jquery.min.js:2)
+    at S.fn.init.a._jQueryInterface [as collapse] (bootstrap.bundle.min.js:6)
+    at HTMLDivElement.<anonymous> (bootstrap.bundle.min.js:6)
+    at Function.each (jquery.min.js:2)
+    at S.fn.init.each (jquery.min.js:2)
+    at HTMLButtonElement.<anonymous> (bootstrap.bundle.min.js:6)
+    at HTMLDocument.dispatch (jquery.min.js:2)
+
+
+    Solucion: instalar una version anterior de Jquery (3.4.1) 
+
+    eliminar dependencia: 
+    npm rm --save jquery
+
+    instalar version concreta y registrarla en package.jon
+    npm install jquery@3.4.1 --save 
